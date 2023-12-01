@@ -1,0 +1,30 @@
+后端分支：
+  tmc-services: feat-hotel-ori
+  hotel-domesticresuouce: feat-hotel-fix-bug2
+
+前端分支：
+  前台/后台：feat-meituan
+
+sql:hotel_20231031.sql
+sql:init_meituan_supplieri.sql
+
+美团api 地址：https://developer-distribution.meituan.com/#/apiDocs/1/13/64
+美团api调试地址：https://developer-distribution.meituan.com/#/developerCenter/details/apiDebugTool?bizTypeId=1&classId=13&apiId=64
+美团账号: 18938074896  密码: Tehang989 
+  partnerId: 13611
+  accesskey: 3c8862bc4cae512fbc8dc48e231a612b
+  
+  备注1：美团开发环境只有两个酒店 1127795044、2491429  和 52786813 （有我们需要的价格）
+  
+  测试时可以手动把 52786813 映射到想测试的酒店下面
+  这里是把 52786813 ->411316533781221376 (深圳市的  《维多利亚花园酒店(深圳宝安中心翻身地铁站店)》) ， 想改成其他对应的可以把这个记录删除了重新插入，tehang_hotel_id换自己需要的酒店id 即可
+  
+  INSERT INTO `domestic_hotel_resource`.`hotel_mapping_tehang_to_supplier` (`supplier_hotel_id`, `tehang_hotel_id`, `supplier`, `main`) VALUES ('MeiTuan_52786813', '411316533781221376', 'MeiTuan', false);
+  
+   备注2:测试美团下单需要开启开发环境测试桩
+
+   酒店内产品信息查询参数
+{"hotelId":52786813,"productId":null,"checkin":"2023-12-01","checkout":"2023-12-02","roomCriteria":{"roomCount":1,"adultCount":2,"childCount":0,"childAges":null},"currency":"CNY","filter":{"productType":1,"minimumPrice":0,"maximumPrice":456000}}
+
+
+{"hotelId":52786813,"productId":11894718,"checkin":"2022-01-10","checkout":"2022-01-11","roomCriteria":{"roomCount":1,"adultCount":2,"childCount":1,"childAges":[5]},"currency":"CNY","filter":{"productType":3,"minimumPrice":21900,"maximumPrice":45600}}
