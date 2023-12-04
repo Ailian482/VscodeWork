@@ -24,7 +24,10 @@ sql:init_meituan_supplieri.sql
    备注2:测试美团下单需要开启开发环境测试桩
 
    酒店内产品信息查询参数
-{"hotelId":52786813,"productId":null,"checkin":"2023-12-01","checkout":"2023-12-02","roomCriteria":{"roomCount":1,"adultCount":2,"childCount":0,"childAges":null},"currency":"CNY","filter":{"productType":1,"minimumPrice":0,"maximumPrice":456000}}
+{"hotelId":52786813,"productId":null,"checkin":"2023-12-0","checkout":"2023-12-02","roomCriteria":{"roomCount":1,"adultCount":2,"childCount":0,"childAges":null},"currency":"CNY","filter":{"productType":1,"minimumPrice":0,"maximumPrice":456000}}
 
 
 {"hotelId":52786813,"productId":11894718,"checkin":"2022-01-10","checkout":"2022-01-11","roomCriteria":{"roomCount":1,"adultCount":2,"childCount":1,"childAges":[5]},"currency":"CNY","filter":{"productType":3,"minimumPrice":21900,"maximumPrice":45600}}
+
+- 预订参数
+{"hotelId":52786813,"goodsId":890648274,"personNames":"花仙子","contactName":"朱秀君","contactPhone":"13632296409","arriveDate":"2023-12-04 23:59:00","checkinDate":"2023-12-04","checkoutDate":"2023-12-07","roomNum":1,"totalPrice":90000,"settlePrice":85500,"distributorOrderId":"310012211","needInvoice":0}
