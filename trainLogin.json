@@ -1,0 +1,12 @@
+{
+	"message": "OK",
+	"code": 0,
+	"data": {
+		"success": false,
+		"operationOnLoginFail": "TryAgain",
+		"description": "登录失败，需要人脸核验",
+		"mobile": "13632296409",
+		"email": null,
+		"accountName": "13632296409"
+	}
+}

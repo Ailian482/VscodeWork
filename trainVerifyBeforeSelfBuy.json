@@ -1,0 +1,23 @@
+{
+	"message": "OK",
+	"code": 0,
+	"data": {
+		"success": false,
+		"deleteTravelerNeeded": false,
+		"numberOfTravelersNeedDeleted": 0,
+		"passengers": [{
+			"passengerName": "MU/QINGYUNSHI",
+			"passengerType": "Adult",
+			"docType": "IdCard",
+			"docNo": "441821199801220273",
+			"status": "failed",
+			"mobile": "11132276590",
+			"captcha": null,
+			"mobileStatus": "failed",
+			"matchOperationResult": "ExistTravelerMatched",
+			"matchOperationSuccess": false,
+			"needSendCaptcha": null,
+			"message": "乘客身份核验失败，获取验证码失败，稍后请重试！"
+		}]
+	}
+}

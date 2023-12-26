@@ -1,0 +1,10 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "cancelled": false,
+        "bookingStatus": "Fail",
+        "trainOrderId": "0",
+        "result": "乘客身份核验失败，请重试！"
+    }
+}
