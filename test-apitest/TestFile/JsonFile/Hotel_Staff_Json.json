@@ -1,0 +1,14 @@
+{
+  "getMonitorRecords": {
+    "orderNoLike": "",
+    "supplierOrderNoLike": "",
+    "corpNameLike": "",
+    "checkInDateStart": "",
+    "checkInDateEnd": "",
+    "bookingCustomerNameLike": "",
+    "travelerNameLike": "",
+    "status": "",
+    "pageSize": 10,
+    "pageNumber": 1
+  }
+}

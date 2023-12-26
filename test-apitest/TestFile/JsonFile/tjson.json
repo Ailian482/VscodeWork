@@ -1,0 +1,16 @@
+{
+  "lopgin": {
+		"identity": "10001",
+		"password": "d16caebd-eda8-4ab3-accb-2a0b1dc89c14",
+		"clientType": "Admin"
+	},
+  "login": {
+    "identity":"10001",
+    "password":"d16caebd-eda8-4ab3-accb-2a0b1dc89c14"
+  },
+  "params": {
+        "id":2,
+        "title":"ceshi"
+    }
+}
+

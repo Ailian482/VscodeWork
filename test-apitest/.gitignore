@@ -1,0 +1,15 @@
+.vscode
+.idea/
+*.pyc
+*.log
+./Report/
+**/__pycache__
+/venv
+.DS_Store
+git
+.html
+*.html
+# virtualenv 
+bin
+lib
+pyvenv.cfg
