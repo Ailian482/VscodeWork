@@ -5,19 +5,21 @@
 		"success": false,
 		"deleteTravelerNeeded": false,
 		"numberOfTravelersNeedDeleted": 0,
-		"passengers": [{
-			"passengerName": "MU/QINGYUNSHI",
-			"passengerType": "Adult",
-			"docType": "IdCard",
-			"docNo": "441821199801220273",
-			"status": "failed",
-			"mobile": "11132276590",
-			"captcha": "888886",
-			"mobileStatus": "failed",
-			"matchOperationResult": "ExistTravelerMatched",
-			"matchOperationSuccess": false,
-			"needSendCaptcha": true,
-			"message": "乘客身份核验失败，请发送 888886 验证码到 1230612 进行核验"
-		}]
+		"passengers": [
+			{
+				"passengerName": "MU/QINGYUNSHI",
+				"passengerType": "Adult",
+				"docType": "IdCard",
+				"docNo": "441821199801220273",
+				"status": "failed",
+				"mobile": "11132276590",
+				"captcha": "888886",
+				"mobileStatus": "failed",
+				"matchOperationResult": "ExistTravelerMatched",
+				"matchOperationSuccess": false,
+				"needSendCaptcha": true,
+				"message": "乘客身份核验失败，请发送 888886 验证码到 1230612 进行核验"
+			}
+		]
 	}
 }

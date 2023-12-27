@@ -1,0 +1,10 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "cancelled": false,
+        "bookingStatus": "Success",
+        "trainOrderId": "708706413819596800",
+        "result": null
+    }
+}
