@@ -1,0 +1,73 @@
+酒店二期阶段性提测
+
+1分支：
+ 1.1  前端分支： feat-meituan-hotel-resource
+ 1.2  后端domestic-hotel-resource： feat-hotel2-memberori1
+ 1.3 后端 tmc-service 服务： feat-hotel2-member
+ 1.4 后端basic-resource分支：feature-addHotelCityApi
+
+2 sql 如下：
+ 2.1 domestic-hotel-resource sql —》V1.1.36__before_release.sql
+ 2.2 tmc-service sql —》 feat-hotel2-member.sql    / add-hotel-manage-menu.sql
+
+3 配置
+ 3.1 账号配置，推荐使用美团生产账号，酒店数据较多
+ 3.2 测试桩，推荐关闭
+ 3.3 酒店对应环境添加配置 hotel:version: V2
+ 3.4 测试环境酒店对应环境配置添加对应的酒店ES前缀。application-devtyxenv6.yml配置添加：  elasticsearch:hotel-env-prefix: dev6- 
+
+
+4 ES 变更
+  添加对应的索引，已添加
+
+
+5，美团酒店城市导入及匹配
+   基础数据->合作方城市维护->合作方国家维护/合作方城市维护
+   execl 参见 《美团酒店城市匹配数据_.xlsx》 《美团酒店城市区县匹配数据.xlsx》
+   导入数据并执行城市匹配
+
+6，国内酒店供应商管理
+  添加供应商美团， code 需要保持为 MeiTuan
+
+
+7, 初始化数据
+7.1 落地美团酒店 耗时估计8个小时
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/meituan/syncFullHotels'
+
+7.2 初始化美团酒店字典为标准字典 （需要等7.1 执行完毕）
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToHotelDictItem?supplierCode=MeiTuan'
+
+7.3 初始化美团酒店设施为标准酒店设施 （需要等7.2执行完毕）
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToHotelAmenity?supplierCode=MeiTuan'
+
+7.4  批量升级美团酒店为标准酒店，需要等7.3 执行完毕
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToThHotel?supplierCode=MeiTuan'
+
+7.5  标准酒店同步至ES
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelToES'
+
+7.6  美团30天酒店价格落地DB
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/meituan/syncHotelDayPricesFor30DaysToDB'
+
+7.7  美团30天酒店价格同步至ES
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
+
+7.8 初始化酒店城市特航行政区
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/updateHotelCityDetailCounties'
+
+
+7.1 -7.4 执行完毕后，可以开始酒店资源管理的测试
+
+后续执行完成后，可以开始以美团酒店为基础的酒店列表查询/详情/下单测试
+
+
+
+
+
+
+
+
+
+
+
+
