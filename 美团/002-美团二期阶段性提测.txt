@@ -59,15 +59,3 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 7.1 -7.4 执行完毕后，可以开始酒店资源管理的测试
 
 后续执行完成后，可以开始以美团酒店为基础的酒店列表查询/详情/下单测试
-
-
-
-
-
-
-
-
-
-
-
-
