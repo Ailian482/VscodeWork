@@ -36,6 +36,10 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 
 7.2 初始化美团酒店字典为标准字典 （需要等7.1 执行完毕）
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToHotelDictItem?supplierCode=MeiTuan'
+  下面两条 SQL 语句查询出来的数量差不多时就完成了 美团酒店字典升级为标准字典
+  select count(*) from `domestic_hotel_resource`.`hotel_dict_item`;
+  select count(*) from `domestic_hotel_resource`.`supplier_hotel_dict_item`;
+
 
 7.3 初始化美团酒店设施为标准酒店设施 （需要等7.2执行完毕）
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToHotelAmenity?supplierCode=MeiTuan'
