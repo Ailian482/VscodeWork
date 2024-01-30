@@ -33,6 +33,8 @@
 7, 初始化数据
 7.1 落地美团酒店 耗时估计8个小时
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/meituan/syncFullHotels'
+  落地千淘酒店：大概需要 3 小时
+  curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/qiantao/syncFullHotelsToDB'
 
 7.2 初始化美团酒店字典为标准字典 （需要等7.1 执行完毕）
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToHotelDictItem?supplierCode=MeiTuan'
@@ -55,6 +57,7 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 
 7.7  美团30天酒店价格同步至ES
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelToES'
 
 7.8 初始化酒店城市特航行政区
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/updateHotelCityDetailCounties'
