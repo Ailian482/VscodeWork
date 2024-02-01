@@ -5,8 +5,8 @@
   accesskey: 27034f20807dd56800cd6575099874b3
 
 1分支：
- 1.1  前端分支： feat-meituan-hotel-resource
- 1.2  后端domestic-hotel-resource： feat-hotel2-memberori1
+ 1.1 前端分支： feat-meituan-hotel-resource
+ 1.2 后端domestic-hotel-resource： feat-hotel2-memberori1
  1.3 后端 tmc-service 服务： feat-hotel2-member
  1.4 后端basic-resource分支：feature-addHotelCityApi
 
