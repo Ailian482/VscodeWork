@@ -1,0 +1,21 @@
+生产环境:
+	Utoer代订系统
+	http://www.utoer.cn:88/
+	账户: szth
+	密码: UkiRPT38oR
+		
+	OPENAPI地址
+	http://open.pro.utoer.cn:1889/api/openapi/
+	AppId: 113
+	Key: N5DNtK7DQmMkF38dMhXM6aZkjkS4bsay
+请妥善保管API信息, 正式上线前请先联系我们做全流程测试.
+
+##################################################################
+
+UtoerAPI接口列表
+	1.基础API
+	2.特殊资源API
+	3.聚合API
+	
+聚合API当前正在升级V2版本,建议延后接入.V2版本预计8月初发布.
+届时提供兼容基础API的数据格式.可以免去大部分的开发工作.

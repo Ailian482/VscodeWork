@@ -1,5 +1,9 @@
 酒店二期阶段性提测
 
+美团生产账号: 18938074896  密码: Tehang989
+  partnerId: 13611
+  accesskey: 27034f20807dd56800cd6575099874b3
+
 1分支：
  1.1  前端分支： feat-meituan-hotel-resource
  1.2  后端domestic-hotel-resource： feat-hotel2-memberori1

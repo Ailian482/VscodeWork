@@ -13,10 +13,6 @@ sql:init_meituan_supplieri.sql
 美团测试账号: 18938074896  密码: Tehang989
   partnerId: 13611
   accesskey: 3c8862bc4cae512fbc8dc48e231a612b
-
-美团生产账号: 18938074896  密码: Tehang989
-  partnerId: 13611
-  accesskey: 27034f20807dd56800cd6575099874b3
   
   备注1：美团开发环境只有两个酒店 1127795044、2491429  和 52786813 （有我们需要的价格）
   
