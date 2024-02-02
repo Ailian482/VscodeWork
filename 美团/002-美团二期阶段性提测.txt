@@ -52,6 +52,8 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 
 7.4  批量升级美团酒店为标准酒店，需要等7.3 执行完毕
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpgradeToThHotel?supplierCode=MeiTuan'
+更新标准酒店:
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpdateThHotel'
 
 7.5  标准酒店同步至ES
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelToES'
