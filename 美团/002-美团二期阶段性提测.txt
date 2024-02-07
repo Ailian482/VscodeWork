@@ -72,3 +72,15 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 7.1 -7.4 执行完毕后，可以开始酒店资源管理的测试
 
 后续执行完成后，可以开始以美团酒店为基础的酒店列表查询/详情/下单测试
+
+千淘匹配标准酒店命令：
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/matchSupplierHotelWithThHotel?supplierCode=QT'
+
+查看千淘酒店落地进度：
+select count(*) from `domestic_hotel_resource`.`supplier_hotel` where supplier_code = 'QT';
+
+落地千淘价格：
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/qiantao/syncHotelDayPricesFor30Days'
+
+同步千淘价格到 ES：
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
