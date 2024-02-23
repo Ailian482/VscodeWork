@@ -164,7 +164,7 @@ connection.onsuccess = e => {
   }
 }
 
-更改国际酒店历史列表缓存：int-history-city
+更改国际酒店历史列表缓存: int-history-city
 let connection = indexedDB.open("_ionicstorage", 2);
 connection.onsuccess = e => {
   const database = e.target.result;
@@ -188,7 +188,7 @@ connection.onsuccess = e => {
   }
 }
 
-更改火车票历史列表缓存：elected_departure_station、selected_arrival_station
+更改火车票历史列表缓存: elected_departure_station、selected_arrival_station
 let connection = indexedDB.open("_ionicstorage", 2);
 connection.onsuccess = e => {
   const database = e.target.result;
