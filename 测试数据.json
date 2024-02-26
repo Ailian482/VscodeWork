@@ -5,7 +5,7 @@
 国际酒店          无	    	 int-history-city					无
 火车票            无			 elected_departure_station		selected_arrival_station
 
-国内机票查询缓存：Tokenflight-home
+国内机票查询缓存: Tokenflight-home
 let connection = indexedDB.open("_ionicstorage", 2);
 connection.onsuccess = e => {
   const database = e.target.result;
@@ -14,7 +14,7 @@ connection.onsuccess = e => {
 // 添加
   //const request = objectStore.add([{code:"422",name:"深圳2",id:"2222",}], "city_cache_tag");
  // 更改
- const tagName= "435124148063309824flight-home"  
+ const tagName= "597001477801775104flight-home"  
 
   const request = objectStore.get(tagName 
   );
@@ -71,7 +71,7 @@ connection.onsuccess = e => {
   const objectStore = transaction.objectStore("_ionickv");
 
   // 到达城市
- const tagName= "innerdeparture_cache_tag"  
+ const tagName= "innerarrival_cache_tag"  
  // 出发城市
 //  const tagName= "innerdeparture_cache_tag"  
 
@@ -90,7 +90,7 @@ connection.onsuccess = e => {
   }
 }
 
-国际机票更改历史列表: intdeparture_cache_tag、intarrival_cache_tag
+国际机票更改历史列表: intdeparture_cache_tag、 intarrival_cache_tag
 let connection = indexedDB.open("_ionicstorage", 2);
 connection.onsuccess = e => {
   const database = e.target.result;
@@ -98,7 +98,7 @@ connection.onsuccess = e => {
   const objectStore = transaction.objectStore("_ionickv");
 
   // 到达城市
- const tagName= "intdeparture_cache_tag"  
+ const tagName= "intarrival_cache_tag"  
  // 出发城市
 //  const tagName= "innerdeparture_cache_tag"  
 
@@ -188,7 +188,7 @@ connection.onsuccess = e => {
   }
 }
 
-更改火车票历史列表缓存: elected_departure_station、selected_arrival_station
+更改火车票历史列表缓存: elected_departure_station、 selected_arrival_station
 let connection = indexedDB.open("_ionicstorage", 2);
 connection.onsuccess = e => {
   const database = e.target.result;
@@ -196,8 +196,8 @@ connection.onsuccess = e => {
   const objectStore = transaction.objectStore("_ionickv");
 
 
-const tagName= "selected_departure_station" 
-//  const tagName= "selected_arrival_station"
+// const tagName= "selected_departure_station" 
+ const tagName= "selected_arrival_station"
 
  const request = objectStore.get(tagName);
 
