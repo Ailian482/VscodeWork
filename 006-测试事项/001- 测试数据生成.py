@@ -30,7 +30,7 @@ class GenerateChinese():
             char_1 = random.randint(*gbk_range_1)
             char_2 = random.randint(*gbk_range_2)
             val = f'{char_1:x} {char_2:x}'
-            print(val)
+            # print(val)
             char = bytes.fromhex(val).decode('gb2312')
 
             # 将生成的汉字添加到结果字符串中
@@ -39,7 +39,7 @@ class GenerateChinese():
         return chinese
 
 # print(GenerateChinese().unicode_chinese(10))
-print(GenerateChinese().gbk_chinese(1))
+print(GenerateChinese().gbk_chinese(51))
 
 
 """
