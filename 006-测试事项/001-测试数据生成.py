@@ -1,5 +1,7 @@
 # 自动生成指定长度的 字符串
 import random
+import secrets
+import string
 
 class GenerateChinese():
 
@@ -37,10 +39,13 @@ class GenerateChinese():
             chinese += char
         
         return chinese
+    
+    def ascii_string(sefl, num):
+        return ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(num))
 
 # print(GenerateChinese().unicode_chinese(10))
-print(GenerateChinese().gbk_chinese(300))
-
+# print(GenerateChinese().gbk_chinese(300))
+print(GenerateChinese().ascii_string(1) + (GenerateChinese().unicode_chinese(10)))
 
 """
 python 随机生成汉字的三种方法
