@@ -39,7 +39,7 @@ class GenerateChinese():
         return chinese
 
 # print(GenerateChinese().unicode_chinese(10))
-print(GenerateChinese().gbk_chinese(51))
+print(GenerateChinese().gbk_chinese(300))
 
 
 """
