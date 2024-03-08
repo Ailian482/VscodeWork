@@ -42,6 +42,7 @@ class GenerateChinese():
     
     def ascii_string(sefl, num):
         return ''.join(secrets.choice(string.ascii_letters + string.digits) for _ in range(num))
+    
 
 # print(GenerateChinese().unicode_chinese(10))
 # print(GenerateChinese().gbk_chinese(300))
