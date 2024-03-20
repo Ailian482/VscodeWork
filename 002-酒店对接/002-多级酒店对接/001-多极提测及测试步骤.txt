@@ -10,7 +10,7 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/duoji/syncHotelDayPricesFor30DaysToDB'
 
 5， 同步近5天或30天酒店价格至DB；
-curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=5'
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
 
 
 6， 公司开启多极酒店接口，初始化通用加价接口 开始测试
@@ -19,4 +19,23 @@ update corp_hotel_config set suppliers = replace(suppliers, 'QT', 'QT,DuoJi') wh
 -- 通用加价添加多极配置（生产通用加价都是5%）
 INSERT INTO hotel_price_config (id, fixed_amount, percent, price_mode, updated_time, biz_type, supplier, staff_id, staff_name)
     VALUES (SELECT MAX(id)+1, '0', '5', 'PercentMode', '2024-03-14T03:15:44.447Z', 'Hotel', 'DuoJi', '10001', '后台管理员');
-	
+
+
+```
+第一项：测试酒店  H10180659
+如家酒店(广州黄沙大道店) H270497
+以上是测试酒店，可以随意下单测试。选择其他酒店下单，都会真实预定，上线前请避免！
+
+第二项：真实酒店
+真实价格下单测试要求：
+1、必须选择15天或之后的价格下单测试。
+2、必须选择可以免费退订的价格下单。
+3、提交订单信息，入住人及联系人需填写有实际意义的人名，不能乱填。（不规范人名如：张三、李四、阿猫、阿狗等不能填！）
+4、同一家酒店5天内最多下3张测试单，超出请换酒店测试。（支付或成交计为一单）
+5、已支付或已成交的测试单，需自行完成取消或退订，并确认已取消或已退订成功。
+6、订单状态信息，以接口或网站返回的状态信息为准。
+请遵循以上要求下测试单。如超出要求范围，或已成交单未及时退订，有权收取订单实际产生的费用。
+
+如非必要，请用测试价格下单测试。
+
+```
