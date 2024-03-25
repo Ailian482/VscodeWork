@@ -1,0 +1,92 @@
+- K8S 客户端安装
+    + https://kubernetes.io/zh/docs/tasks/tools/install-kubectl/
+- 配置
+    + ~/.kube/config
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJd01Ea3pNREEzTURjeE5Wb1hEVE13TURreU9EQTNNRGN4TlZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTXI5Clk4M0ZyOFJ3MHBYUWhrMU9Gb1kweVlXUWFmMTNuVnpFV1g3bDErZ05OZWRDTVVNSHJXQkkzMDJnSG5zaHF1UXAKdXJ2RWNXOWowZnBRcHhzVXpkcVoxTDBEVVgwRlZsSEJicHYxZm12WVJpVnEvOGRXNlJaWmhnak5lSlZrQ0hUUApkRUVTQ1U1cEhYN3g3MHhGVkl4T0s1OFpTUzJCYUZyZEd3YUlBSkJRakdRWHN3eSt4VTcvYVZwcDhBZXpsNGhICnoxdEVpR1dlR2s1VXBTUXVONnE3ZFFzandhNktSazJiRzE1NURzWlNpL1Zkd2hpZCs0c1NVUEhEVGJDOTJpU0MKQ0dlYXVya3NzcmYzdHhkSlZJU2E4SDZXZEFBaFIyNDZ6eFhxZkRFVzgwd2hPMFo2K2MrY3lWN0pQVnZQMUw0Ngora0lyUlRCaitRek1za2NuQTZNQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZBbXNFM0lZc002MEcvUzdvdlRBU2hTTmtXdjdNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFCbFNTNk9vamR0YmtwajYzL1I0RGl0TXF6OWxZazFzbnZ4RS9ISm9DRElsUnQ0TGdwSgovbmR0SG5wK20vd3dTVU9ReVBnMFRydzRDYkcvMlZ6b0l4SzZ2Zms1VjhFVjVKak9VTjNEY1FUWUdZUnJabkQ2Ckl5WkFJQTlFd0svS0RUdjkxNXcyMDdiQnBRLytvWXA4eUJVNU5uWjdVTld2R2NRQkdUNGJrbm9RQnBEdlZzRlgKMTVNT3BCVVFkcCszcXNxR2JJNVJRdW9JNytUTnV3ekpxLzhacWdaYTZteHJOWlF4ekQxSmNjVHpJclA0bUJEYQoxejdqZUhrajhHTmh2WjkyOXlaUVRjRzBjanBmUktGY2lXTTdjbkhNTmRobGlPaDJIWDAvRTc5bW0rcFBqY3o5CjBNbG5JM2h0aDZOU1FZY1A2ZGVPaUd1RmJFb2tlRzM4bmJEMwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://k8s.itehang.cn:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: kubernetes
+    namespace: test-tyx-env-1 
+    user: kubernetes-admin
+  name: test-tyx-env-1
+- context:
+    cluster: kubernetes
+    namespace: test-tyx-env-2 
+    user: kubernetes-admin
+  name: test-tyx-env-2
+- context:
+    cluster: kubernetes
+    namespace: test-tyx-env-3
+    user: kubernetes-admin
+  name: test-tyx-env-3
+- context:
+    cluster: kubernetes
+    namespace: test-tyx-env-4 
+    user: kubernetes-admin
+  name: test-tyx-env-4
+current-context: test-tyx-env-3
+kind: Config
+preferences: {}
+users:
+- name: kubernetes-admin
+  user:
+    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFekNDQWZ1Z0F3SUJBZ0lJQXcyNUhHdHloUVV3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TURBNU16QXdOekEzTVRWYUZ3MHlNekEyTWpBd05ETXlOVGRhTURReApGekFWQmdOVkJBb1REbk41YzNSbGJUcHRZWE4wWlhKek1Sa3dGd1lEVlFRREV4QnJkV0psY201bGRHVnpMV0ZrCmJXbHVNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXVjRmVEc3Z5dk1HL3JLRncKaHE2dXFNOVZRYncwVWtSYVMzUDBqQlRwZDZycXloaHVLS1VXMCtzcnJNVHkxUndReDdpY1c0dmRMcXRsNmc5RApHS3NjY2s0Wnc3TGJKb1ZXTGRUdkJETjNvaS93RHZSRU02YWhyc0tlYkw3QXFqUGNJMDVpbXFmeVdrSC9tM2s2ClRCYXI5bUNQTHdZK1lWSmdYRXJYclRJd3FoYzcxQXNRWFNIUFJneWRFZGFWRDIya0hUUjhQWjVHMUc3aU9EajQKSG8zdTN5QUdoeXBnam5INEoyRm15UUdBSk9PNVNuYXpFall1S1ZtYjlRUW5SRTVQY0gvNkFCMjcvZWZUZkNzagprdEVtS3V2M1pHaXdMMzhYRmpJTEhHY2FvaTBUNnRVdVNtYi9LVDdpdTA3QnVSTTF5VWpoenJtNnJENXpFMW9jCmI3ZnRrd0lEQVFBQm8wZ3dSakFPQmdOVkhROEJBZjhFQkFNQ0JhQXdFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUgKQXdJd0h3WURWUjBqQkJnd0ZvQVVDYXdUY2hpd3pyUWI5THVpOU1CS0ZJMlJhL3N3RFFZSktvWklodmNOQVFFTApCUUFEZ2dFQkFGWjRNNzJPVzlaRkxTd3pMK0VvdjZ4MUJxSjRvR3FTVTdkK0ZuRHpmVWpyVy80R0ExWVNxMkRUCjQzV3lFcDY0ajhXUTg1MWd4TmtsMW91d1FLQWZxOVdKdEdBdm1GNTBFdzdPVTU3M01ab3F5dlFIM2xwVTYvcHcKM0lZMTR0U1c3Yng2MmJ1bHNHZWtJSDNabXE3anNSaWtSYXBpWm1kV21wTllYRGxZV3I0NE5rU1RaMVdxeVlxMApqZStUSVpxK3RZaEphbDB5b2xmK3NSWmcwOEs3QU94QVNWeWZQYnRhVXFucThwTUtwS1I4TUV2WVdmaytFenA5CnAzK3JWdXhNQTlVZDZ0cExHamxqbDhhSDVhbjhFYnVlTDRxd1VScGJuYWNKK3RiQjJzbjVTd1BKZGRoa1ZmK1IKelpZTGZNTlRzajNrb1RxQzBVbVMzV3p5VUdVOHdrVT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBdWNGZURzdnl2TUcvcktGd2hxNnVxTTlWUWJ3MFVrUmFTM1AwakJUcGQ2cnF5aGh1CktLVVcwK3Nyck1UeTFSd1F4N2ljVzR2ZExxdGw2ZzlER0tzY2NrNFp3N0xiSm9WV0xkVHZCRE4zb2kvd0R2UkUKTTZhaHJzS2ViTDdBcWpQY0kwNWltcWZ5V2tIL20zazZUQmFyOW1DUEx3WStZVkpnWEVyWHJUSXdxaGM3MUFzUQpYU0hQUmd5ZEVkYVZEMjJrSFRSOFBaNUcxRzdpT0RqNEhvM3UzeUFHaHlwZ2puSDRKMkZteVFHQUpPTzVTbmF6CkVqWXVLVm1iOVFRblJFNVBjSC82QUIyNy9lZlRmQ3Nqa3RFbUt1djNaR2l3TDM4WEZqSUxIR2Nhb2kwVDZ0VXUKU21iL0tUN2l1MDdCdVJNMXlVamh6cm02ckQ1ekUxb2NiN2Z0a3dJREFRQUJBb0lCQUVic2xQd3pWUEJMVGVNZApGUGpuczVxUzUydWM3NkZGcGZCUFN0MDlrdEwxT0lhSGczQVRjTDdqZVI2VGFHQ0VRY2Z3TGdzcVFQNXp4UXIwClh0c0pZbWdtZCtIbjVaTTByKzM1OG5UNUxjR0lhakZiaExydjhhWG5lMVBzRldZblBQTmlGM1lUa0E1MFNxTlQKU3pZSUpncUJYY3BIcVFQQnp6Y09BSUdKdTFrRnRNV2hTdUt1M1ZpYmdQbjZJTG95UlhOS2l5allYZUJEc0dDYgpFejhIQlc2WGtqd2dYcHM5ZzcxTlQ0OFFUdm1zeWx3RUpmL0krVkNFT0x2ODJlanNSNGhJN1dnNU5JUmxsTm9iClF3OTg2U1NWTkxhTkVIN0tJWGY1ZUdFeGN1bnVIa0llU2tOaFBHSm5FY3hLVWE5NWJGUHZjMndlR2tqdVM3RDgKOHBjMFAva0NnWUVBeHl5QUM1RGYwRERNTVZjVEJYUll6MTRaSGZWT1JSRFh2UmpFRWZodnE4b0ZObEdBbmVBUgpoNlVKVGo3SWRWdXEwOWFuUUQvOWtyYUt2dkxXVFdKa0dHRStUVGljRDc1TGZXYzA4RkZvUmZDKysraE16cmJtCjNLZGpGN21Rb0JwYU55RWVadHE4aUJGUmNOTm9mVGluc29PWmhmMG9zZTZhNWxBcUVhRDYxeDBDZ1lFQTdzREsKbmZYVHhaSng0OVRzSmhMdXh1RFk4bHNrUTRVUXhSaDI2bnhSZ3pqUjF4NU03a3hUVlpXSlEvY0d4Mk1YdW5jbQppcFpuTk44ZndRYVZIcVVDb1g0ci85eENGUWpEZEpwWTBrV24yVk9vRXVKMzNRMk9TcTJObi9Mb0hYV0N0czlBCjIzM1VnKzBqZUhyK1laNjR5L0pXc2wwVFlNRVNCZ3NORHRPZXlHOENnWUJRSFNVd0Fja1UyOXYyYUxqYzg4eVoKTkpkVHhvMENHT0UrVFl6b1VZN1JnY1FROGoyU3cwTXAxWWRsc3JrOUEyODJJRnhMNnJGYlp4TnQ5UTJnT05oYwpPaGt1Ukh2NWxTaVdPNEkrdSsvK1dmVG9MS3RnWm85NzU5UmpBYUFiMWgyOW1STzZlWGRtSDlrclVjM3d1RzR6Cnp0MWMyTlNhcFlnbTVjM1dJM05pUFFLQmdBeHc0VjMvekV3MFNGajk1RnhMaWtPMHZibExSSVY4THBhR290T3YKTExRd3hzWjEzcjVnSGN1TTRqMDNaeFFHdHRyUmtLR1NHc2luZzhrVUpic1dFQ0FJS2hUSURtMTRLbTh1QjhqVgpObHpkdmhsVjBiY2tHTEVOZ0I3QWtwWE9aTVJQNG1wTmtVQmFvQW1NSnl0QkVSSVhpNnI1cktQVEM3Umk2UWhICndMTmpBb0dBY0Y1SDYwaDg3dHNuZThVOG93TEtyTCt6Q3FwM3JrdXpSb3I5Nmg4TW1pcDZQVy9kdGVWekFOUE0KenY3dlFRbGpqUC8yb1pqSllmOTc3ejMxUE5XQVJ1OG0rdEpycDdLeFBoVDhpRCtJL0h2VkN6QTlTa0FqQUh4RgpCeEU0RXJRL0UvNkRDQWJWTWNha1FnaDA4U0pOQ0JDd1ZJWjlJd0QrNjVWUXFLUmpyMUU9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+
+    + ~/.bash_profile
+# K8S Alias
+alias kube-switch='kubectl config use-context'
+
+# K8S Functions
+kube-log() {
+    if [ $# -lt 1 ]
+    then
+        echo 'kube-log {deploy-name} {other-arguments}'
+    else
+        kubectl get pods | /usr/bin/grep $1 | awk '{print $1}' | xargs kubectl logs ${*:2}
+    fi
+}
+kube-port-forward() {
+  kubectl get svc | /usr/bin/grep $1 | awk '{split($5, array, ":"); print "services/"$1" "array[1]":"array[1]}' | xargs kubectl port-forward
+}
+
+- 查看服务运行状况
+  kubectl get po
+  kubectl describe po {PodName}
+
+- 查看某个环境下的所有pod
+  kubectl get pods -n dev-tyx-env-3
+
+- 重启服务
+  kubectl delete po {PodName}
+
+- 切换环境
+  kube-switch test-3
+
+- 查看服务日志
+  kubectl logs {PodName} --tail={LineNumber}
+  kubectl logs {PodName} --tail={LineNumber} | grep "Keyword"
+  kubectl logs {PodName} --tail={LineNumber} | grep -C {LineNumber} "Keyword"
+  kubectl logs {PodName} --tail={LineNumber} -f | tee ~/Desktop/PodLog.log
+  kubectl logs {PodName} --tail={LineNumber} -f # 动态查看日志
+  kube-log {Keyword} --tail={LineNumber}
+
+- 服务端口映射
+  kubectl get services
+  kubectl port-forward services/tmc-services 10031:10031
+
+- 进去pod里面的命令
+  kubectl exec -it 服务名 -n 环境 /bin/bash
+- 例如：
+  kubectl exec -it tmc-services-58b46f86c5-8qmkd -n test-tyx-env-3 /bin/bash
+- 其中 test-tyx-env-3 是环境名
+  tmc-services-58b46f86c5-8qmkd 是 kubectl get pods -n 环境名查找出来的 podname
+  
+
+
+- 进去之后，命令行的头部发生如下变化

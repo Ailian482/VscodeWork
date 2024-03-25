@@ -1,0 +1,22 @@
+1. 如果使用kubectl get pods -n test-tyx-env-2 查看服务都正常，但是前端提示服务异常，以下有两种方法去解决（郎哥真传）
+第一种方法：
+看看我们的服务发现中心的日志
+kubectl logs -f consul-0 -n test-tyx-env-3 --tail=100
+检查到网络有问题，可以重启consul 试试
+kubectl delete po consul-0 -n test-tyx-env-3
+
+如果重启consul不能解决问题，那么我们可以采用第二种比较暴力的方法：
+发现某套环境不可用了（比如部分服务consul注册掉了），以前我要一个一个pod排查，重启，现在我学会暴力了
+1. 首先把除 mysql、redis、consul 之外的服务干掉
+kubectl get deploy -n dev-tyx-env-2 |  awk '{print $1}' | grep -v -e dev-mysql -e dev-redis -e consul | xargs kubectl scale deploy --replicas=0 -n dev-tyx-env-2
+kubectl get deploy -n test-tyx-env-3 |  awk '{print $1}' | grep -v -e dev-mysql -e dev-redis -e consul | xargs kubectl scale deploy --replicas=0 -n test-tyx-env-3
+
+2. 确认只剩 mysql、redis、consul 之后再把他们带回来
+kubectl get po -n dev-tyx-env-1
+kubectl get po -n test-tyx-env-3
+
+3. 发现只剩3个pod后，或者没有Redis也可以
+kubectl get deploy -n dev-tyx-env-2 |  awk '{print $1}' | grep -v -e dev-mysql -e dev-redis -e consul | xargs kubectl scale deploy --replicas=1 -n dev-tyx-env-2
+kubectl get deploy -n test-tyx-env-3 |  awk '{print $1}' | grep -v -e dev-mysql -e dev-redis -e consul | xargs kubectl scale deploy --replicas=1 -n test-tyx-env-3
+
+本以为是个很重的操作，结果启动速度出乎意外的快（除了 tmc-services 服务本身启动慢外）
