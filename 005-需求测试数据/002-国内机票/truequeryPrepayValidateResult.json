@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+      "status": 0,
+      "prepayValidateResult": "支付前验证成功，可以发起支付"
+  }
+}
