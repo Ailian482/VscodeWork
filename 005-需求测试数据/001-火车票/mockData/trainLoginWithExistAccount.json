@@ -3,7 +3,7 @@
 	"code": 0,
 	"data": {
 		"success": false,
-		"operationOnLoginFail": "TryAgain",
+		"operationOnLoginFail": "Other",
 		"description": "登录失败，需要人脸核验",
 		"mobile": "13632296409",
 		"email": null,
