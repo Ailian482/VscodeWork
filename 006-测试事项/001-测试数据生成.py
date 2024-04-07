@@ -45,8 +45,8 @@ class GenerateChinese():
     
 
 # print(GenerateChinese().unicode_chinese(10))
-# print(GenerateChinese().gbk_chinese(300))
-print(GenerateChinese().ascii_string(1) + (GenerateChinese().unicode_chinese(10)))
+print(GenerateChinese().gbk_chinese(300))
+# print(GenerateChinese().ascii_string(1) + (GenerateChinese().unicode_chinese(10)))
 
 """
 python 随机生成汉字的三种方法
