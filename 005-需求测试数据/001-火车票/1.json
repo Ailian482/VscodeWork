@@ -1,0 +1,101 @@
+{
+    "message": "",
+    "code": 0,
+    "data": {
+      "ext1": "748946626407698432",
+      "ext2": null,
+      "issueTime": "2024-04-16 17:14:40",
+      "ticketGate": "",
+      "ticketNo": "E5W2412345",
+      "orderAmount": 498,
+      "passengers": [
+        {
+          "passengerName": "OKADAYASUHIRO",
+          "passengerType": "Adult",
+          "cardType": "IdCard",
+          "cardNo": "JPN310064020703",
+          "idValidity": null,
+          "country": null,
+          "passengerId": "16779774554823",
+          "seatClass": "softSleeperDown",
+          "seatNo": "1车厢,005下铺",
+          "price": 124.5,
+          "printTicketNo": null,
+          "serviceCharge": 0,
+          "insuranceCharge": 0
+        },
+        {
+          "passengerName": "RACZOLIVER VIKTOR",
+          "passengerType": "Adult",
+          "cardType": "IdCard",
+          "cardNo": "BT7552371",
+          "idValidity": null,
+          "country": null,
+          "passengerId": "16779774554825",
+          "seatClass": "softSleeperDown",
+          "seatNo": "1车厢,006下铺",
+          "price": 124.5,
+          "printTicketNo": null,
+          "serviceCharge": 0,
+          "insuranceCharge": 0
+        },
+        {
+          "passengerName": "司徒舜南",
+          "passengerType": "Adult",
+          "cardType": "IdCard",
+          "cardNo": "810000197704240191",
+          "idValidity": null,
+          "country": null,
+          "passengerId": "16779774554827",
+          "seatClass": "softSleeperDown",
+          "seatNo": "1车厢,007下铺",
+          "price": 124.5,
+          "printTicketNo": null,
+          "serviceCharge": 0,
+          "insuranceCharge": 0
+        },
+        {
+          "passengerName": "舒俊文",
+          "passengerType": "Adult",
+          "cardType": "IdCard",
+          "cardNo": "05720372",
+          "idValidity": null,
+          "country": null,
+          "passengerId": "16779774554829",
+          "seatClass": "softSleeperDown",
+          "seatNo": "1车厢,008下铺",
+          "price": 124.5,
+          "printTicketNo": null,
+          "serviceCharge": 0,
+          "insuranceCharge": 0
+        }
+      ]
+    }
+  }
+
+  {
+    "message": "",
+    "code": 0,
+    "data": {
+      "ext1": "748908197942792192",
+      "ext2": null,
+      "supplierOrderNo": "HC2024041614134864418962",
+      "orderNo": "748908197942792192",
+      "refundTime": "2024-04-16 17:55:05",
+      "refundPrice": 0,
+      "refundType": "online",
+      "passengers": [
+        {
+          "passengerId": "16778601807949",
+          "passengerName": "秦臻",
+          "passengerType": "Adult",
+          "cardType": "IdCard",
+          "cardNo": "370102199003078456",
+          "passengerTicketNo": null,
+          "refundPrice": 91.5
+        }
+      ],
+      "soleKey": null,
+      "success": true
+    }
+  }
