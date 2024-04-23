@@ -1,101 +1,285 @@
+- 220014783-改签单
 {
-    "message": "",
-    "code": 0,
-    "data": {
-      "ext1": "748946626407698432",
-      "ext2": null,
-      "issueTime": "2024-04-16 17:14:40",
-      "ticketGate": "",
-      "ticketNo": "E5W2412345",
-      "orderAmount": 498,
-      "passengers": [
-        {
-          "passengerName": "OKADAYASUHIRO",
-          "passengerType": "Adult",
-          "cardType": "IdCard",
-          "cardNo": "JPN310064020703",
-          "idValidity": null,
-          "country": null,
-          "passengerId": "16779774554823",
-          "seatClass": "softSleeperDown",
-          "seatNo": "1车厢,005下铺",
-          "price": 124.5,
-          "printTicketNo": null,
-          "serviceCharge": 0,
-          "insuranceCharge": 0
-        },
-        {
-          "passengerName": "RACZOLIVER VIKTOR",
-          "passengerType": "Adult",
-          "cardType": "IdCard",
-          "cardNo": "BT7552371",
-          "idValidity": null,
-          "country": null,
-          "passengerId": "16779774554825",
-          "seatClass": "softSleeperDown",
-          "seatNo": "1车厢,006下铺",
-          "price": 124.5,
-          "printTicketNo": null,
-          "serviceCharge": 0,
-          "insuranceCharge": 0
-        },
-        {
-          "passengerName": "司徒舜南",
-          "passengerType": "Adult",
-          "cardType": "IdCard",
-          "cardNo": "810000197704240191",
-          "idValidity": null,
-          "country": null,
-          "passengerId": "16779774554827",
-          "seatClass": "softSleeperDown",
-          "seatNo": "1车厢,007下铺",
-          "price": 124.5,
-          "printTicketNo": null,
-          "serviceCharge": 0,
-          "insuranceCharge": 0
-        },
-        {
-          "passengerName": "舒俊文",
-          "passengerType": "Adult",
-          "cardType": "IdCard",
-          "cardNo": "05720372",
-          "idValidity": null,
-          "country": null,
-          "passengerId": "16779774554829",
-          "seatClass": "softSleeperDown",
-          "seatNo": "1车厢,008下铺",
-          "price": 124.5,
-          "printTicketNo": null,
-          "serviceCharge": 0,
-          "insuranceCharge": 0
-        }
-      ]
-    }
+  "method": "bookSeat",
+  "sign": "86764B93C4D67B07E722CEE34613D9FF",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "2",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "4.00",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "-4.00",
+    "expirationTime": "2024-04-23 15:37:32",
+    "fromStationCode": "PIJ",
+    "toStationCode": "POJ",
+    "departureTime": "2024-05-05 17:29:00",
+    "arrivalTime": "2024-05-05 17:44:00",
+    "trainNo": "7514",
+    "ticketNo": "EF08723658",
+    "orderAmount": "4.00",
+    "fromStation": "平凉",
+    "toStation": "平凉南",
+    "issueTime": "2024-04-23 15:27:38",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "退还票款差额:4.00 元",
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16856581251269",
+        "passengerName": "朱秀芳",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199506020623",
+        "price": "4.00",
+        "pTicketNo": "EF087236582020001",
+        "pTicketNoOld": "EF087236581040008",
+        "seatClass": "1",
+        "seatNo": "02车厢,001号",
+        "serviceCharge": "0.0",
+        "oldPassengerId": "16856429226055"
+      }
+    ],
+    "msgInfo": "改签占座成功",
+    "orderNo": "HC2024042315073534873058",
+    "outOrderNo": "751463428031385600"
   }
+}
+- 220014785-改签单
+{
+  "method": "bookSeat",
+  "sign": "F8F2A3FCB5FE68F9C007CDA2E630AFF8",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "3",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "8.00",
+    "totalPricediff": "4.00",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "4.00",
+    "expirationTime": "2024-04-23 15:53:00",
+    "fromStationCode": "PIJ",
+    "toStationCode": "POJ",
+    "departureTime": "2024-05-03 06:45:00",
+    "arrivalTime": "2024-05-03 07:00:00",
+    "trainNo": "K9664",
+    "ticketNo": "EF10678456",
+    "orderAmount": "8.00",
+    "fromStation": "平凉",
+    "toStation": "平凉南",
+    "issueTime": "2024-04-23 15:43:05",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "新票款:8.00元,原票款:4.00元",
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16856700406469",
+        "passengerName": "朱秀君",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199611040626",
+        "price": "8.00",
+        "pTicketNo": "EF106784562020006",
+        "pTicketNoOld": "EF106784561030003",
+        "seatClass": "1",
+        "seatNo": "02车厢,006号",
+        "serviceCharge": "0.0",
+        "oldPassengerId": "16856411863495"
+      }
+    ],
+    "msgInfo": "改签占座成功",
+    "orderNo": "HC2024042315051970312060",
+    "outOrderNo": "751467333255565312"
+  }
+}
 
-  {
-    "message": "",
-    "code": 0,
-    "data": {
-      "ext1": "748908197942792192",
-      "ext2": null,
-      "supplierOrderNo": "HC2024041614134864418962",
-      "orderNo": "748908197942792192",
-      "refundTime": "2024-04-16 17:55:05",
-      "refundPrice": 0,
-      "refundType": "online",
-      "passengers": [
-        {
-          "passengerId": "16778601807949",
-          "passengerName": "秦臻",
-          "passengerType": "Adult",
-          "cardType": "IdCard",
-          "cardNo": "370102199003078456",
-          "passengerTicketNo": null,
-          "refundPrice": 91.5
-        }
-      ],
-      "soleKey": null,
-      "success": true
-    }
+- 220014787-退票单
+{
+  "method": "refundTicket",
+  "sign": "FD668D0D7255C89F365AB7BBC1900222",
+  "param": {
+    "msgCode": "100",
+    "msgInfo": "退票成功",
+    "orderNo": "HC2024042315073534873058",
+    "outOrderNo": null,
+    "refundTime": "2024-04-23 15:53:33",
+    "refundPrice": "4.00",
+    "soleKey": "16856781940549",
+    "refundType": "online",
+    "passengers": [
+      {
+        "passengerId": "16856581251269",
+        "passengerName": "朱秀芳",
+        "passengerType": 1,
+        "cardType": "1",
+        "cardNo": "441821199506020623",
+        "refundPrice": "4.00",
+        "pTicketNo": "EF087236582020001"
+      }
+    ]
   }
+}
+
+- 220014793「待取消」
+{
+  "method": "bookSeat",
+  "sign": "645A35F6821A9AEF6E64E84994DF4F5C",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "1",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "0.0",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "0.0",
+    "expirationTime": "2024-04-23 16:19:15",
+    "fromStationCode": "PIJ",
+    "toStationCode": "POJ",
+    "departureTime": "2024-05-04 17:29:00",
+    "arrivalTime": "2024-05-04 17:44:00",
+    "trainNo": "7514",
+    "ticketNo": "EF12985089",
+    "orderAmount": "4.00",
+    "fromStation": "平凉",
+    "toStation": "平凉南",
+    "issueTime": "2024-04-23 16:09:21",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "改签票款差价:0.0 元",
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16856902075205",
+        "passengerName": "朱文彬",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199806030612",
+        "price": "4.00",
+        "pTicketNo": "EF129850892020007",
+        "pTicketNoOld": "EF129850891020003",
+        "seatClass": "1",
+        "seatNo": "02车厢,007号",
+        "serviceCharge": "0.0",
+        "oldPassengerId": "16856878780487"
+      }
+    ],
+    "msgInfo": "改签占座成功",
+    "orderNo": "HC2024042316060749230029",
+    "outOrderNo": "751473941608009728"
+  }
+}
+
+- 220014797
+{
+  "method": "bookSeat",
+  "sign": "0AFB44AA0767302F9531E7078121D57E",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "2",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "4.00",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "-4.00",
+    "expirationTime": "2024-04-23 18:07:27",
+    "fromStationCode": "PIJ",
+    "toStationCode": "POJ",
+    "departureTime": "2024-04-24 13:09:00",
+    "arrivalTime": "2024-04-24 13:24:00",
+    "trainNo": "6074",
+    "ticketNo": "EF52046658",
+    "orderAmount": "4.00",
+    "fromStation": "平凉",
+    "toStation": "平凉南",
+    "issueTime": "2024-04-23 17:57:33",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "退还票款差额:4.00 元",
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16857733108165",
+        "passengerName": "何嘉敏",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199907132124",
+        "price": "4.00",
+        "pTicketNo": "EF520466582020006",
+        "pTicketNoOld": "EF520466581040010",
+        "seatClass": "1",
+        "seatNo": "02车厢,006号",
+        "serviceCharge": "0.0",
+        "oldPassengerId": "16857701915079"
+      }
+    ],
+    "msgInfo": "改签占座成功",
+    "orderNo": "HC2024042317531823130863",
+    "outOrderNo": "751501172887654400"
+  }
+}
+
+- 改签没有收改签费
+{
+  "method": "bookSeat",
+  "sign": "7995EEAF62842D3AE783D243746D69D9",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "2",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "0.0",
+    "diffrate": "0.050",
+    "serviceCharge": "1.00",
+    "changePriceDiff": "0.0",
+    "expirationTime": "2024-04-23 18:30:23",
+    "fromStationCode": "IOQ",
+    "toStationCode": "IFQ",
+    "departureTime": "2024-04-26 11:12:00",
+    "arrivalTime": "2024-04-26 11:29:00",
+    "trainNo": "D7310",
+    "ticketNo": "EF86765960",
+    "orderAmount": "14.00",
+    "fromStation": "深圳北",
+    "toStation": "深圳坪山",
+    "issueTime": "2024-04-23 18:20:29",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "退还票款差额:0.00 元",
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16857909132485",
+        "passengerName": "朱秀君",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199611040626",
+        "price": "14.00",
+        "pTicketNo": "EF86765960208001C",
+        "pTicketNoOld": "EF86765960107006F",
+        "seatClass": "O",
+        "seatNo": "08车厢,01C号",
+        "serviceCharge": "1.00",
+        "oldPassengerId": "16857886196551"
+      }
+    ],
+    "msgInfo": "改签占座成功",
+    "orderNo": "HC2024042318171793093064",
+    "outOrderNo": "751506938814140416"
+  }
+}
