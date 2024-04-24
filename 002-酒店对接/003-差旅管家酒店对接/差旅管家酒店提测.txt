@@ -1,0 +1,47 @@
+差旅管家酒店提测
+
+tmc分支：feat-hotelCeekeeOri 
+sql: 
+USE tmc_services;
+-- 通用加价添差旅管家极配置
+INSERT INTO hotel_price_config (id, fixed_amount, percent, price_mode, updated_time, biz_type, supplier, staff_id, staff_name)
+SELECT MAX(id)+1, '0', '5', 'PercentMode', '2024-03-14T03:15:44.447Z', 'Hotel', 'Ceekee', '10001', '后台管理员' FROM hotel_price_config;
+
+basic-resource-service服务分支：feat-ceekee
+
+
+domestic-hotel-resource 酒店服务分支：feat-ceekeeOri
+
+配置已添加，需更新服务
+
+sql:
+use domestic_hotel_resource;
+
+-- 添加供应商酒店code表
+CREATE TABLE `supplier_hotel_code` (
+   `id` bigint(20) NOT NULL COMMENT 'PK',
+   `supplier_code` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '供应商代码',
+   `supplier_hotel_code` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '供应商酒店代码',
+   PRIMARY KEY (`id`),
+   UNIQUE KEY `idx_supplier_hotel_code_supplier_and_hotel_code` (`supplier_code`,`supplier_hotel_code`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='供应商酒店code';
+
+-- 初始化差旅管家字典表（星级）
+INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code, name_cn, name_en, create_time, update_time) VALUES (8501, 'Ceekee', 'HotelStart', '5', '五星级', NULL, '2023-11-01 15:37:17.039', '2023-11-01 15:37:17.039');
+INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code, name_cn, name_en, create_time, update_time) VALUES (8502, 'Ceekee', 'HotelStart', '4', '四星级', NULL, '2023-11-01 15:37:17.039', '2023-11-01 15:37:17.039');
+INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code, name_cn, name_en, create_time, update_time) VALUES (8503, 'Ceekee', 'HotelStart', '3', '三星级', NULL, '2023-11-01 15:37:17.039', '2023-11-01 15:37:17.039');
+INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code, name_cn, name_en, create_time, update_time) VALUES (8504, 'Ceekee', 'HotelStart', '2', '二星级', NULL, '2023-11-01 15:37:17.039', '2023-11-01 15:37:17.039');
+INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code, name_cn, name_en, create_time, update_time) VALUES (8505, 'Ceekee', 'HotelStart', '1', '一星级', NULL, '2023-11-01 15:37:17.039', '2023-11-01 15:37:17.039');
+
+
+步骤0 ，更新服务和执行sql
+步骤0 ，更新服务和执行sql，导入和匹配差旅管家酒店城市，并匹配
+步骤2，导入酒店id数据，生产数据暂无提供，目前从开发环境导入，约1万多条数据
+步骤3， 下载酒店静态信息 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/ceekee/syncHotelInfo'
+步骤4，酒店匹配，升级《柠檬酒店(北京丰台站店) 》为标准酒店
+步骤5，更新标准酒店至ES，curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpdateThHotel'
+步骤6，同步30天价格至DB， curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/ceekee/syncHotelDayPricesFor5DaysToDB'
+步骤7，同步价格至ES curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelToES'
+
+
+酒店验价下单用   柠檬酒店(北京丰台站店)  ，其他酒店目前貌似验价无法成功
