@@ -44,3 +44,23 @@ INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code
 步骤7，同步价格至ES curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
 
 酒店验价下单用   柠檬酒店(北京丰台站店)  ，其他酒店目前貌似验价无法成功
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+酒店下单时支持证件后端对应加密下单等改动
+
+ tmc分支变更为：feat-hotelCeekeeOri 
+增加sql:
+-- 酒店订单证件号存储密文加长字段和清楚旧数据
+update hotel_order_room_guest set doc_no = null, doc_type = null where doc_no is not null;
+ALTER TABLE hotel_order_room_guest modify `doc_no` varchar(200);
+
+-- 酒店订单供应商添加字段是否需要证件
+CALL AddColumnUnlessExists('hotel_order_supplier_info', 'need_doc', 'BIT(1) NOT NULL default 0');
+
+hotel-resource分支： feat-ceekee7temp
+-- 酒店订单证件号存储密文
+update hotel_order_guest set doc_no = null, doc_type = null where doc_no is not null;
+ALTER TABLE hotel_order_guest modify `doc_no` varchar(200);
+
+-- 资源平台订单增加预订时是否需要证件号码信息
+CALL AddColumnUnlessExists('hotel_order', 'need_doc', 'BIT(1) NOT NULL default 0 comment "下单是否需要证件号"');

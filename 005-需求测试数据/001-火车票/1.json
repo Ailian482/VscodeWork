@@ -1009,3 +1009,81 @@
     "outOrderNo": "752431681583058944"
   }
 }
+
+- 票多多返回请求改签失败
+{
+  "method": "bookSeat",
+  "sign": "C099E9A28F5ACB9F17D3D8ED172859FA",
+  "param": {
+    "msgCode": "1600101",
+    "isChangedOrder": "1",
+    "changedType": "0",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "0.0",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "0.0",
+    "expirationTime": null,
+    "fromStationCode": "DMQ",
+    "toStationCode": "BJQ",
+    "departureTime": "2024-05-06 00:00:00",
+    "arrivalTime": "0000-00-00 00:00:00",
+    "trainNo": "",
+    "ticketNo": null,
+    "orderAmount": "0",
+    "fromStation": "东莞东",
+    "toStation": "BJQ",
+    "issueTime": "2024-04-26 09:18:58",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "",
+    "ticketGate": "",
+    "passengers": [
+      
+    ],
+    "msgInfo": "请求改签失败",
+    "orderNo": "HC2024042416054967445066",
+    "outOrderNo": "752457868321624064"
+  }
+}
+
+- 票多多返回改签查不到车次
+{
+  "method": "bookSeat",
+  "sign": "3D3E4F644626E1419D97AAD58006E9F1",
+  "param": {
+    "msgCode": "1600104",
+    "isChangedOrder": "1",
+    "changedType": "0",
+    "changeTicketCost": "0.0",
+    "changeTicketRate": "0.000",
+    "payCount": "0.0",
+    "totalPricediff": "0.0",
+    "diffrate": "0.000",
+    "serviceCharge": "0.0",
+    "changePriceDiff": "0.0",
+    "expirationTime": null,
+    "fromStationCode": "DMQ",
+    "toStationCode": "BJQ",
+    "departureTime": "2024-05-10 00:00:00",
+    "arrivalTime": "0000-00-00 00:00:00",
+    "trainNo": "",
+    "ticketNo": null,
+    "orderAmount": "0",
+    "fromStation": "东莞东",
+    "toStation": "BJQ",
+    "issueTime": "2024-04-26 09:34:14",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": "",
+    "ticketGate": "",
+    "passengers": [
+      
+    ],
+    "msgInfo": "未找到要改签的车次",
+    "orderNo": "HC2024042609291024525785",
+    "outOrderNo": "752461710811598848"
+  }
+}
