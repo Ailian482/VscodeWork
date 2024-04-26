@@ -41,7 +41,6 @@ INSERT IGNORE INTO  supplier_hotel_dict_item (id, supplier_code, dict_type, code
 步骤4，酒店匹配，升级《柠檬酒店(北京丰台站店) 》为标准酒店
 步骤5，更新标准酒店至ES，curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchUpdateThHotel'
 步骤6，同步30天价格至DB， curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/ceekee/syncHotelDayPricesFor30DaysToDB'
-步骤7，同步价格至ES curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelToES'
-
+步骤7，同步价格至ES curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
 
 酒店验价下单用   柠檬酒店(北京丰台站店)  ，其他酒店目前貌似验价无法成功
