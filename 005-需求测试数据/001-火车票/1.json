@@ -1087,3 +1087,55 @@
     "outOrderNo": "752461710811598848"
   }
 }
+
+- 代购改签单 220014981
+{
+  "method": "issueOrder",
+  "sign": "5BAB3BAFDEA6E354C3161D6DFC62D15E",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "1",
+    "changeTicketCost": "1.5",
+    "changeTicketRate": "0.05",
+    "payCount": "1.5",
+    "totalPricediff": "0.0",
+    "diffrate": null,
+    "serviceCharge": "0.0",
+    "changePriceDiff": "0.0",
+    "expirationTime": "2024-04-29 10:21:49",
+    "fromStationCode": "DNA",
+    "toStationCode": "IOQ",
+    "departureTime": "2024-05-03 20:09",
+    "arrivalTime": "",
+    "trainNo": "G6307",
+    "ticketNo": "E7W2570000",
+    "orderAmount": "34",
+    "fromStation": "东莞南",
+    "toStation": "深圳北",
+    "issueTime": "2024-04-29 09:53:49",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": null,
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "16912030053957",
+        "passengerName": "木婉清三",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199801220142",
+        "price": "34",
+        "pTicketNo": "E7W2570000201001A",
+        "pTicketNoOld": "E7W2570000101005A",
+        "seatClass": "M",
+        "seatNo": "01车厢,01A号",
+        "serviceCharge": "0",
+        "oldPassengerId": "16911216345287"
+      }
+    ],
+    "msgInfo": "改签出票成功",
+    "orderNo": "HC2024042814011971742120",
+    "outOrderNo": "753280375006040064"
+  }
+}
