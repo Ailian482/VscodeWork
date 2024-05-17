@@ -82,8 +82,8 @@ curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v
 select count(*) from `domestic_hotel_resource`.`supplier_hotel` where supplier_code = 'QT';
 
 落地千淘价格：
-curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/qiantao/syncHotelDayPricesFor30Days'
-curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/wjsHotel/syncHotelDayPricesFor30Days'
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/qiantao/syncHotelDayPricesFor30DaysToDB'
+curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/wjsHotel/syncHotelDayPricesFor30DaysToDB'
 
 同步千淘价格到 ES：
 curl --location --request POST 'localhost:10097//domestic-hotel-resource/inner/v1/hotel/manage/batchSaveThHotelDayPriceToES?days=30'
