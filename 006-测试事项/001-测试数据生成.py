@@ -45,7 +45,7 @@ class GenerateChinese():
     
 
 # print(GenerateChinese().unicode_chinese(10))
-print(GenerateChinese().unicode_chinese(500))
+# print(GenerateChinese().unicode_chinese(500))
 # print(GenerateChinese().ascii_string(1) + (GenerateChinese().unicode_chinese(10)))
 
 """
@@ -75,3 +75,4 @@ class GetNumber():
         return number.join(str(random.randint(0, 9)) for _ in range (num))
 
 print(GetNumber().get_number(151))
+
