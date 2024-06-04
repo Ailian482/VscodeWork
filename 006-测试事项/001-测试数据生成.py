@@ -74,5 +74,5 @@ class GetNumber():
         # return number
         return number.join(str(random.randint(0, 9)) for _ in range (num))
 
-print(GetNumber().get_number(151))
+print(GetNumber().get_number(101))
 
