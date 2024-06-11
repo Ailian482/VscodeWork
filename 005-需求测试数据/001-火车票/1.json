@@ -1493,3 +1493,54 @@
   "changeOrder": true
 }
 
+
+{
+  "method": "issueOrder",
+  "sign": "D9CB20D64282224829EE2DDCEE1F75AF",
+  "param": {
+    "msgCode": "100",
+    "isChangedOrder": "1",
+    "changedType": "2",
+    "changeTicketCost": "7.5",
+    "changeTicketRate": "0.15",
+    "payCount": "3.5",
+    "totalPricediff": "4.0",
+    "diffrate": null,
+    "serviceCharge": "2.0",
+    "changePriceDiff": "-4.0",
+    "expirationTime": "2024-06-11 19:01:00",
+    "fromStationCode": "DMQ",
+    "toStationCode": "BJQ",
+    "departureTime": "2024-06-18 04:40",
+    "arrivalTime": "",
+    "trainNo": "K1019",
+    "ticketNo": "EDW5040000",
+    "orderAmount": "48.5",
+    "fromStation": "东莞东",
+    "toStation": "深圳东",
+    "issueTime": "2024-06-11 18:33:00",
+    "mailCharge": "0",
+    "msgDetail": "",
+    "remark": null,
+    "ticketGate": "",
+    "passengers": [
+      {
+        "passengerId": "556793280081989",
+        "passengerName": "木青云十",
+        "passengerType": "1",
+        "cardType": "1",
+        "cardNo": "441821199801220273",
+        "price": "48.5",
+        "pTicketNo": "EDW50400002010013",
+        "pTicketNoOld": "EDW50400001010011",
+        "seatClass": "3",
+        "seatNo": "01车厢,01上铺",
+        "serviceCharge": "0",
+        "oldPassengerId": "556774922866759"
+      }
+    ],
+    "msgInfo": "改签出票成功",
+    "orderNo": "HC2024061117025967393382",
+    "outOrderNo": "769263293012512768"
+  }
+}
