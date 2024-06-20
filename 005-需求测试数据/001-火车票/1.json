@@ -1,1546 +1,377 @@
-- 220014783-改签单
+//16人代购下单
 {
-  "method": "bookSeat",
-  "sign": "86764B93C4D67B07E722CEE34613D9FF",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "4.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "-4.00",
-    "expirationTime": "2024-04-23 15:37:32",
-    "fromStationCode": "PIJ",
-    "toStationCode": "POJ",
-    "departureTime": "2024-05-05 17:29:00",
-    "arrivalTime": "2024-05-05 17:44:00",
-    "trainNo": "7514",
-    "ticketNo": "EF08723658",
-    "orderAmount": "4.00",
-    "fromStation": "平凉",
-    "toStation": "平凉南",
-    "issueTime": "2024-04-23 15:27:38",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "退还票款差额:4.00 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16856581251269",
-        "passengerName": "朱秀芳",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199506020623",
-        "price": "4.00",
-        "pTicketNo": "EF087236582020001",
-        "pTicketNoOld": "EF087236581040008",
-        "seatClass": "1",
-        "seatNo": "02车厢,001号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16856429226055"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042315073534873058",
-    "outOrderNo": "751463428031385600"
-  }
-}
-- 220014785-改签单
-{
-  "method": "bookSeat",
-  "sign": "F8F2A3FCB5FE68F9C007CDA2E630AFF8",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "8.00",
-    "totalPricediff": "4.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "4.00",
-    "expirationTime": "2024-04-23 15:53:00",
-    "fromStationCode": "PIJ",
-    "toStationCode": "POJ",
-    "departureTime": "2024-05-03 06:45:00",
-    "arrivalTime": "2024-05-03 07:00:00",
-    "trainNo": "K9664",
-    "ticketNo": "EF10678456",
-    "orderAmount": "8.00",
-    "fromStation": "平凉",
-    "toStation": "平凉南",
-    "issueTime": "2024-04-23 15:43:05",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "新票款:8.00元,原票款:4.00元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16856700406469",
-        "passengerName": "朱秀君",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199611040626",
-        "price": "8.00",
-        "pTicketNo": "EF106784562020006",
-        "pTicketNoOld": "EF106784561030003",
-        "seatClass": "1",
-        "seatNo": "02车厢,006号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16856411863495"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042315051970312060",
-    "outOrderNo": "751467333255565312"
-  }
-}
-
-- 220014886 - 改签单
-{
-  "method": "bookSeat",
-  "sign": "0DF0C78BABB1D0B90B871A5618AECFF2",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.50",
-    "changeTicketRate": "0.0500",
-    "payCount": "11.50",
-    "totalPricediff": "10.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "1.50",
-    "expirationTime": "2024-04-25 11:10:25",
-    "fromStationCode": "IMQ",
-    "toStationCode": "IOQ",
-    "departureTime": "2024-05-06 17:07:00",
-    "arrivalTime": "2024-05-06 17:23:00",
-    "trainNo": "G2707",
-    "ticketNo": "EF03161896",
-    "orderAmount": "11.00",
-    "fromStation": "光明城",
-    "toStation": "深圳北",
-    "issueTime": "2024-04-25 11:00:30",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "新票款:11.00元,原票款:10.00元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16876648564933",
-        "passengerName": "张煜",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "430603198209133516",
-        "price": "11.00",
-        "pTicketNo": "EF03161896403004B",
-        "pTicketNoOld": "EF03161896112001a",
-        "seatClass": "O",
-        "seatNo": "03车厢,04B号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16867502290119"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042415092366014688",
-    "outOrderNo": "752120993119604736"
-  }
-}
-
-- 220014888 - 改签单
-{
-  "method": "bookSeat",
-  "sign": "FAB84FCF3AF950B17D00CCB031283A3E",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "14.50",
-    "totalPricediff": "10.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "4.50",
-    "expirationTime": "2024-04-25 11:18:15",
-    "fromStationCode": "IMQ",
-    "toStationCode": "IOQ",
-    "departureTime": "2024-04-26 09:39:00",
-    "arrivalTime": "2024-04-26 09:49:00",
-    "trainNo": "G6579",
-    "ticketNo": "EF03161896",
-    "orderAmount": "14.50",
-    "fromStation": "光明城",
-    "toStation": "深圳北",
-    "issueTime": "2024-04-25 11:08:20",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "新票款:14.50元,原票款:10.00元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16876707968453",
-        "passengerName": "张煜",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "430603198209133516",
-        "price": "14.50",
-        "pTicketNo": "EF03161896507014F",
-        "pTicketNoOld": "EF03161896112001a",
-        "seatClass": "O",
-        "seatNo": "07车厢,14F号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16867502290119"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042415092366014688",
-    "outOrderNo": "752122941029879808"
-  }
-}
-
-- 220014787-退票单
-{
-  "method": "refundTicket",
-  "sign": "FD668D0D7255C89F365AB7BBC1900222",
-  "param": {
-    "msgCode": "100",
-    "msgInfo": "退票成功",
-    "orderNo": "HC2024042315073534873058",
-    "outOrderNo": null,
-    "refundTime": "2024-04-23 15:53:33",
-    "refundPrice": "4.00",
-    "soleKey": "16856781940549",
-    "refundType": "online",
-    "passengers": [
-      {
-        "passengerId": "16856581251269",
-        "passengerName": "朱秀芳",
-        "passengerType": 1,
-        "cardType": "1",
-        "cardNo": "441821199506020623",
-        "refundPrice": "4.00",
-        "pTicketNo": "EF087236582020001"
-      }
-    ]
-  }
-}
-
-- 220014793「待取消」
-{
-  "method": "bookSeat",
-  "sign": "645A35F6821A9AEF6E64E84994DF4F5C",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "1",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "0.0",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-23 16:19:15",
-    "fromStationCode": "PIJ",
-    "toStationCode": "POJ",
-    "departureTime": "2024-05-04 17:29:00",
-    "arrivalTime": "2024-05-04 17:44:00",
-    "trainNo": "7514",
-    "ticketNo": "EF12985089",
-    "orderAmount": "4.00",
-    "fromStation": "平凉",
-    "toStation": "平凉南",
-    "issueTime": "2024-04-23 16:09:21",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "改签票款差价:0.0 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16856902075205",
-        "passengerName": "朱文彬",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199806030612",
-        "price": "4.00",
-        "pTicketNo": "EF129850892020007",
-        "pTicketNoOld": "EF129850891020003",
-        "seatClass": "1",
-        "seatNo": "02车厢,007号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16856878780487"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042316060749230029",
-    "outOrderNo": "751473941608009728"
-  }
-}
-
-- 220014797
-{
-  "method": "bookSeat",
-  "sign": "0AFB44AA0767302F9531E7078121D57E",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "4.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "-4.00",
-    "expirationTime": "2024-04-23 18:07:27",
-    "fromStationCode": "PIJ",
-    "toStationCode": "POJ",
-    "departureTime": "2024-04-24 13:09:00",
-    "arrivalTime": "2024-04-24 13:24:00",
+  "travelType": "OnBusiness",
+  "contact": {
+    "name": "朱秀君",
+    "mobile": "11632296409",
+    "email": "zhuxiujun@tehang.com"
+  },
+  "passengers": [
+    {
+      "referenceId": "597072871432523776",
+      "passengerName": "木青云十",
+      "docType": "IdCard",
+      "docNo": "441821199801220273",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276590",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871415746560",
+      "passengerName": "木青云九",
+      "docType": "IdCard",
+      "docNo": "44182119980122029X",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276580",
+      "expiredDate": "",
+      "country": "HK",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871398969344",
+      "passengerName": "木青云八",
+      "docType": "IdCard",
+      "docNo": "441821199801220257",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276570",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871382192128",
+      "passengerName": "木青云七",
+      "docType": "IdCard",
+      "docNo": "441821199801220230",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276560",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871365414912",
+      "passengerName": "木青云六",
+      "docType": "IdCard",
+      "docNo": "441821199801220214",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276550",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871348637696",
+      "passengerName": "木青云五",
+      "docType": "IdCard",
+      "docNo": "441821199801220193",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276540",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871331860480",
+      "passengerName": "木青云四",
+      "docType": "IdCard",
+      "docNo": "441821199801220177",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276530",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871315083264",
+      "passengerName": "木青云三",
+      "docType": "IdCard",
+      "docNo": "441821199801220150",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276520",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871298306048",
+      "passengerName": "木青云二",
+      "docType": "IdCard",
+      "docNo": "441821199801220134",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276510",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871281528832",
+      "passengerName": "木青云一",
+      "docType": "IdCard",
+      "docNo": "441821199801220118",
+      "gender": "Male",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276500",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871264751616",
+      "passengerName": "木婉清十",
+      "docType": "IdCard",
+      "docNo": "441821199801220281",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276490",
+      "expiredDate": "",
+      "country": null,
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871247974400",
+      "passengerName": "木婉清九",
+      "docType": "IdCard",
+      "docNo": "441821199801220265",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276480",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871231197184",
+      "passengerName": "木婉清八",
+      "docType": "IdCard",
+      "docNo": "441821199801220249",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276470",
+      "expiredDate": "",
+      "country": "CN",
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871214419968",
+      "passengerName": "木婉清七",
+      "docType": "IdCard",
+      "docNo": "441821199801220222",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276460",
+      "expiredDate": "",
+      "country": null,
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871197642752",
+      "passengerName": "木婉清六",
+      "docType": "IdCard",
+      "docNo": "441821199801220206",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276450",
+      "expiredDate": "",
+      "country": null,
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    },
+    {
+      "referenceId": "597072871180865536",
+      "passengerName": "木婉清五",
+      "docType": "IdCard",
+      "docNo": "441821199801220169",
+      "gender": "Female",
+      "birthday": "1998-01-22",
+      "approvalNo": null,
+      "projectId": null,
+      "belongedDeptId": "597002240099749888",
+      "mobile": "11132276440",
+      "expiredDate": "",
+      "country": null,
+      "passengerType": "Adult",
+      "seatNo": null,
+      "ticketPrice": null,
+      "seatSubTypeCode": null,
+      "passengerInsurances": [
+        
+      ]
+    }
+  ],
+  "canCreditPay": true,
+  "requireReimbursement": false,
+  "reimbursementType": "",
+  "distribution": null,
+  "route": {
+    "fromStation": "PIJ",
+    "toStation": "POJ",
     "trainNo": "6074",
-    "ticketNo": "EF52046658",
-    "orderAmount": "4.00",
-    "fromStation": "平凉",
-    "toStation": "平凉南",
-    "issueTime": "2024-04-23 17:57:33",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "退还票款差额:4.00 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16857733108165",
-        "passengerName": "何嘉敏",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199907132124",
-        "price": "4.00",
-        "pTicketNo": "EF520466582020006",
-        "pTicketNoOld": "EF520466581040010",
-        "seatClass": "1",
-        "seatNo": "02车厢,006号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16857701915079"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042317531823130863",
-    "outOrderNo": "751501172887654400"
-  }
-}
-
-- 改签没有收改签费
-{
-  "method": "bookSeat",
-  "sign": "7995EEAF62842D3AE783D243746D69D9",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "0.0",
-    "diffrate": "0.050",
-    "serviceCharge": "1.00",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-23 18:30:23",
-    "fromStationCode": "IOQ",
-    "toStationCode": "IFQ",
-    "departureTime": "2024-04-26 11:12:00",
-    "arrivalTime": "2024-04-26 11:29:00",
-    "trainNo": "D7310",
-    "ticketNo": "EF86765960",
-    "orderAmount": "14.00",
-    "fromStation": "深圳北",
-    "toStation": "深圳坪山",
-    "issueTime": "2024-04-23 18:20:29",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "退还票款差额:0.00 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16857909132485",
-        "passengerName": "朱秀君",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199611040626",
-        "price": "14.00",
-        "pTicketNo": "EF86765960208001C",
-        "pTicketNoOld": "EF86765960107006F",
-        "seatClass": "O",
-        "seatNo": "08车厢,01C号",
-        "serviceCharge": "1.00",
-        "oldPassengerId": "16857886196551"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042318171793093064",
-    "outOrderNo": "751506938814140416"
-  }
-}
-
-- 改签费和退票费都有 220014835
-{
-  "method": "bookSeat",
-  "sign": "669891537E87D7F490CF2C60941CFB6F",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.50",
-    "changeTicketRate": "0.0500",
-    "payCount": "0.0",
-    "totalPricediff": "0.50",
-    "diffrate": "0.100",
-    "serviceCharge": "2.00",
-    "changePriceDiff": "-0.50",
-    "expirationTime": "2024-04-24 14:10:08",
-    "fromStationCode": "IOQ",
-    "toStationCode": "IFQ",
-    "departureTime": "2024-05-07 20:46:00",
-    "arrivalTime": "2024-05-07 21:03:00",
-    "trainNo": "D7432",
-    "ticketNo": "EF86765960",
-    "orderAmount": "12.00",
-    "fromStation": "深圳北",
-    "toStation": "深圳坪山",
-    "issueTime": "2024-04-24 14:00:13",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "退还票款差额:0.50 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16866969613893",
-        "passengerName": "朱秀君",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199611040626",
-        "price": "12.00",
-        "pTicketNo": "EF86765960508011C",
-        "pTicketNoOld": "EF86765960107006F",
-        "seatClass": "O",
-        "seatNo": "08车厢,11C号",
-        "serviceCharge": "2.00",
-        "oldPassengerId": "16857886196551"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042318171793093064",
-    "outOrderNo": "751803834623463424"
-  }
-}
-
-- 平价只有改签手续费 220014848
-{
-  "method": "bookSeat",
-  "sign": "93A9C9CB9D615AD06F4EC66E34891D49",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "1",
-    "changeTicketCost": "0.50",
-    "changeTicketRate": "0.0500",
-    "payCount": "0.50",
-    "totalPricediff": "0.0",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.50",
-    "expirationTime": "2024-04-24 14:51:16",
-    "fromStationCode": "IOQ",
-    "toStationCode": "IMQ",
-    "departureTime": "2024-04-29 17:18:00",
-    "arrivalTime": "2024-04-29 17:30:00",
-    "trainNo": "C6806",
-    "ticketNo": "EF10694762",
-    "orderAmount": "10.00",
-    "fromStation": "深圳北",
-    "toStation": "光明城",
-    "issueTime": "2024-04-24 14:41:23",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "改签票款差价:0.0 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16867285543109",
-        "passengerName": "朱文彬",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199806030612",
-        "price": "10.00",
-        "pTicketNo": "EF10694762204001C",
-        "pTicketNoOld": "EF10694762104001A",
-        "seatClass": "O",
-        "seatNo": "04车厢,01C号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16867273901382"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042414393937134029",
-    "outOrderNo": "751814185914077184"
-  }
-}
-
-- 低改高只有改签手续费 220014856
-{
-  "method": "bookSeat",
-  "sign": "6CCEBA58CC3CAAE7DF97840CD0E85814",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.50",
-    "changeTicketRate": "0.0500",
-    "payCount": "11.50",
-    "totalPricediff": "10.00",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "1.50",
-    "expirationTime": "2024-04-24 15:28:32",
-    "fromStationCode": "IMQ",
-    "toStationCode": "IOQ",
-    "departureTime": "2024-04-29 17:07:00",
-    "arrivalTime": "2024-04-29 17:23:00",
-    "trainNo": "G2707",
-    "ticketNo": "EF03161896",
-    "orderAmount": "11.00",
-    "fromStation": "光明城",
-    "toStation": "深圳北",
-    "issueTime": "2024-04-24 15:18:39",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "新票款:11.00元,原票款:10.00元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16867564021829",
-        "passengerName": "张煜",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "430603198209133516",
-        "price": "11.00",
-        "pTicketNo": "EF03161896306008B",
-        "pTicketNoOld": "EF03161896112001a",
-        "seatClass": "O",
-        "seatNo": "06车厢,08B号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16867502290119"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042415092366014688",
-    "outOrderNo": "751823312287567872"
-  }
-}
-
-- 卧铺 出票 220014860
-{
-  "method": "bookSeat",
-  "sign": "5609F2B0F35C62F5B8D612E3B6199CC0",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "0",
-    "changedType": "0",
-    "changeTicketCost": null,
-    "changeTicketRate": null,
-    "payCount": "157.50",
-    "totalPricediff": "0",
-    "diffrate": null,
-    "serviceCharge": "0",
-    "changePriceDiff": "0",
-    "expirationTime": "2024-04-24 16:15:57",
-    "fromStationCode": "DMQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-05-06 17:47:00",
-    "arrivalTime": "2024-05-06 18:24:00",
-    "trainNo": "K641",
-    "ticketNo": "EF18793909",
-    "orderAmount": "157.50",
-    "fromStation": "东莞东",
-    "toStation": "深圳东",
-    "issueTime": "2024-04-24 16:06:02",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16867935700039",
-        "passengerName": "李常琼",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "512221197602024488",
-        "price": "54.5",
-        "pTicketNo": "EF187939091170111",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "17车厢,11号下铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16867935700041",
-        "passengerName": "朱秀芳",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199506020623",
-        "price": "54.5",
-        "pTicketNo": "EF187939091170112",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "17车厢,11号中铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16867935700043",
-        "passengerName": "何嘉敏",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199907132124",
-        "price": "48.5",
-        "pTicketNo": "EF187939091170133",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "17车厢,13号上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      }
-    ],
-    "msgInfo": "占座成功",
-    "orderNo": "HC2024042416054967445066",
-    "outOrderNo": "751835491229372416"
-  }
-}
-
-- 代购改签回调成功，特航未成功 220014872
-{
-  "method": "issueOrder",
-  "sign": "9502FAAF0A329F21AB85B0C718A3896F",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.0",
-    "payCount": "0.0",
-    "totalPricediff": "30.0",
-    "diffrate": null,
-    "serviceCharge": "7.5",
-    "changePriceDiff": "-30.0",
-    "expirationTime": "2024-04-24 17:57:18",
-    "fromStationCode": "SZQ",
-    "toStationCode": "DMQ",
-    "departureTime": "2024-04-25 06:58",
-    "arrivalTime": "",
-    "trainNo": "G636",
-    "ticketNo": "E1W9988777",
-    "orderAmount": "21",
-    "fromStation": "深圳",
-    "toStation": "东莞东",
-    "issueTime": "2024-04-24 17:29:18",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16868282200133",
-        "passengerName": "木青云八",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220257",
-        "price": "21",
-        "pTicketNo": "E1W9988777201001A",
-        "pTicketNoOld": "E1W99887771070023",
-        "seatClass": "O",
-        "seatNo": "01车厢,01A号",
-        "serviceCharge": "0",
-        "oldPassengerId": "16868176746182"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042416371284254113",
-    "outOrderNo": "751846845126414336"
-  }
-}
-
-- 出票回调 220014882 
-{
-  "method": "issueOrder",
-  "sign": "0F930963062C5DD434A99DE673D57F5C",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "0",
-    "changedType": "0",
-    "changeTicketCost": null,
-    "changeTicketRate": null,
-    "payCount": null,
-    "totalPricediff": null,
-    "diffrate": null,
-    "serviceCharge": "0",
-    "changePriceDiff": "0",
-    "expirationTime": "2024-04-24 18:46:11",
-    "fromStationCode": "GGQ",
-    "toStationCode": "RTQ",
-    "departureTime": "2024-04-27 07:05:00",
-    "arrivalTime": "",
-    "trainNo": "C8067",
-    "ticketNo": "E3W6657666",
-    "orderAmount": "252.5",
-    "fromStation": "广州东",
-    "toStation": "东莞",
-    "issueTime": "2024-04-24 18:18:11",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16868865059399",
-        "passengerName": "木婉清一",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220126",
-        "price": "50.5",
-        "pTicketNo": "E3W6657666101001A",
-        "pTicketNoOld": null,
-        "seatClass": "M",
-        "seatNo": "1车厢,1A号",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868865059401",
-        "passengerName": "木婉清二",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "44182119980122010X",
-        "price": "50.5",
-        "pTicketNo": "E3W6657666101001D",
-        "pTicketNoOld": null,
-        "seatClass": "M",
-        "seatNo": "1车厢,1D号",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868865059403",
-        "passengerName": "木婉清三",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220142",
-        "price": "50.5",
-        "pTicketNo": "E3W6657666101001F",
-        "pTicketNoOld": null,
-        "seatClass": "M",
-        "seatNo": "1车厢,1F号",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868865059405",
-        "passengerName": "木婉清四",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220185",
-        "price": "50.5",
-        "pTicketNo": "E3W6657666101002C",
-        "pTicketNoOld": null,
-        "seatClass": "M",
-        "seatNo": "1车厢,2C号",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868865059407",
-        "passengerName": "木婉清五",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220169",
-        "price": "50.5",
-        "pTicketNo": "E3W6657666101002F",
-        "pTicketNoOld": null,
-        "seatClass": "M",
-        "seatNo": "1车厢,2F号",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      }
-    ],
-    "msgInfo": "占座成功",
-    "orderNo": "HC2024042418065029424043",
-    "outOrderNo": "751865944481075200"
-  }
-}
-
-- 出票回调 220014884
-{
-  "method": "issueOrder",
-  "sign": "B73F8E90FD750150328BBBE43533520A",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "0",
-    "changedType": "0",
-    "changeTicketCost": null,
-    "changeTicketRate": null,
-    "payCount": null,
-    "totalPricediff": null,
-    "diffrate": null,
-    "serviceCharge": "0",
-    "changePriceDiff": "0",
-    "expirationTime": "2024-04-24 18:49:19",
-    "fromStationCode": "GBQ",
-    "toStationCode": "RTQ",
-    "departureTime": "2024-05-07 10:13:00",
-    "arrivalTime": "",
-    "trainNo": "K1655",
-    "ticketNo": "E0W6657888",
-    "orderAmount": "323.5",
-    "fromStation": "广州北",
-    "toStation": "东莞",
-    "issueTime": "2024-04-24 18:21:19",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16868883332935",
-        "passengerName": "木婉清十",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220281",
-        "price": "68.5",
-        "pTicketNo": "E0W66578881180171",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "18车厢,17下铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868883333062",
-        "passengerName": "木婉清八",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220249",
-        "price": "60.5",
-        "pTicketNo": "E0W66578881180173",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "18车厢,17上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868883333064",
-        "passengerName": "木婉清九",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220265",
-        "price": "65.5",
-        "pTicketNo": "E0W66578881180192",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "18车厢,19中铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868883333066",
-        "passengerName": "木婉清七",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220222",
-        "price": "60.5",
-        "pTicketNo": "E0W66578881180193",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "18车厢,19上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      },
-      {
-        "passengerId": "16868883333068",
-        "passengerName": "木婉清六",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220206",
-        "price": "68.5",
-        "pTicketNo": "E0W66578881180201",
-        "pTicketNoOld": null,
-        "seatClass": "3",
-        "seatNo": "18车厢,20下铺",
-        "serviceCharge": "0",
-        "oldPassengerId": null
-      }
-    ],
-    "msgInfo": "占座成功",
-    "orderNo": "HC2024042418091305740629",
-    "outOrderNo": "751866543255719936"
-  }
-}
-
-- 代购改签回调成功，特航未成功 220014878
-{
-  "method": "issueOrder",
-  "sign": "EE769F9EA087EAAA260340ACBA4406E4",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.0",
-    "payCount": "172.0",
-    "totalPricediff": "0.0",
-    "diffrate": null,
-    "serviceCharge": "0.0",
-    "changePriceDiff": "39.0000",
-    "expirationTime": "2024-04-24 19:01:19",
-    "fromStationCode": "SZQ",
-    "toStationCode": "DMQ",
-    "departureTime": "2024-04-30 07:48",
-    "arrivalTime": "",
-    "trainNo": "C8060",
-    "ticketNo": "E1W9988777",
-    "orderAmount": "172",
-    "fromStation": "深圳",
-    "toStation": "东莞东",
-    "issueTime": "2024-04-24 18:33:19",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16868708715333",
-        "passengerName": "木青云十",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220273",
-        "price": "86",
-        "pTicketNo": "E1W9988777203005A",
-        "pTicketNoOld": "E1W99887771070021",
-        "seatClass": "P",
-        "seatNo": "03车厢,05A号",
-        "serviceCharge": "0",
-        "oldPassengerId": "16868176746055"
-      },
-      {
-        "passengerId": "16868708715461",
-        "passengerName": "木青云九",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "44182119980122029X",
-        "price": "86",
-        "pTicketNo": "E1W9988777203005B",
-        "pTicketNoOld": "E1W99887771070031",
-        "seatClass": "P",
-        "seatNo": "03车厢,05B号",
-        "serviceCharge": "0",
-        "oldPassengerId": "16868176746184"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042416371284254113",
-    "outOrderNo": "751860821520420864"
-  }
-}
-
-- 12306 取消改签，再支付，流程异常
-{
-  "method": "bookSeat",
-  "sign": "A2C848D3DD0661E8716C4EDDB65E1B4F",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "1",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "0.0",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-26 07:44:59",
-    "fromStationCode": "IMQ",
-    "toStationCode": "IOQ",
-    "departureTime": "2024-04-26 18:12:00",
-    "arrivalTime": "2024-04-26 18:28:00",
-    "trainNo": "C6809",
-    "ticketNo": "EF03161896",
-    "orderAmount": "10.00",
-    "fromStation": "光明城",
-    "toStation": "深圳北",
-    "issueTime": "2024-04-26 07:36:04",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "改签票款差价:0.0 元",
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16886130002373",
-        "passengerName": "张煜",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "430603198209133516",
-        "price": "10.00",
-        "pTicketNo": "EF03161896708010D",
-        "pTicketNoOld": "EF03161896112001a",
-        "seatClass": "O",
-        "seatNo": "08车厢,10D号",
-        "serviceCharge": "0.0",
-        "oldPassengerId": "16867502290119"
-      }
-    ],
-    "msgInfo": "改签占座成功",
-    "orderNo": "HC2024042415092366014688",
-    "outOrderNo": "752431681583058944"
-  }
-}
-
-- 票多多返回请求改签失败
-{
-  "method": "bookSeat",
-  "sign": "C099E9A28F5ACB9F17D3D8ED172859FA",
-  "param": {
-    "msgCode": "1600101",
-    "isChangedOrder": "1",
-    "changedType": "0",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "0.0",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": null,
-    "fromStationCode": "DMQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-05-06 00:00:00",
-    "arrivalTime": "0000-00-00 00:00:00",
-    "trainNo": "",
-    "ticketNo": null,
-    "orderAmount": "0",
-    "fromStation": "东莞东",
-    "toStation": "BJQ",
-    "issueTime": "2024-04-26 09:18:58",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "",
-    "ticketGate": "",
-    "passengers": [
-      
-    ],
-    "msgInfo": "请求改签失败",
-    "orderNo": "HC2024042416054967445066",
-    "outOrderNo": "752457868321624064"
-  }
-}
-
-- 票多多返回改签查不到车次
-{
-  "method": "bookSeat",
-  "sign": "3D3E4F644626E1419D97AAD58006E9F1",
-  "param": {
-    "msgCode": "1600104",
-    "isChangedOrder": "1",
-    "changedType": "0",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.000",
-    "payCount": "0.0",
-    "totalPricediff": "0.0",
-    "diffrate": "0.000",
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": null,
-    "fromStationCode": "DMQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-05-10 00:00:00",
-    "arrivalTime": "0000-00-00 00:00:00",
-    "trainNo": "",
-    "ticketNo": null,
-    "orderAmount": "0",
-    "fromStation": "东莞东",
-    "toStation": "BJQ",
-    "issueTime": "2024-04-26 09:34:14",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": "",
-    "ticketGate": "",
-    "passengers": [
-      
-    ],
-    "msgInfo": "未找到要改签的车次",
-    "orderNo": "HC2024042609291024525785",
-    "outOrderNo": "752461710811598848"
-  }
-}
-
-- 代购改签单 220014981
-{
-  "method": "issueOrder",
-  "sign": "5BAB3BAFDEA6E354C3161D6DFC62D15E",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "1",
-    "changeTicketCost": "1.5",
-    "changeTicketRate": "0.05",
-    "payCount": "1.5",
-    "totalPricediff": "0.0",
-    "diffrate": null,
-    "serviceCharge": "0.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-29 10:21:49",
-    "fromStationCode": "DNA",
-    "toStationCode": "IOQ",
-    "departureTime": "2024-05-03 20:09",
-    "arrivalTime": "",
-    "trainNo": "G6307",
-    "ticketNo": "E7W2570000",
-    "orderAmount": "34",
-    "fromStation": "东莞南",
-    "toStation": "深圳北",
-    "issueTime": "2024-04-29 09:53:49",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16912030053957",
-        "passengerName": "木婉清三",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220142",
-        "price": "34",
-        "pTicketNo": "E7W2570000201001A",
-        "pTicketNoOld": "E7W2570000101005A",
-        "seatClass": "M",
-        "seatNo": "01车厢,01A号",
-        "serviceCharge": "0",
-        "oldPassengerId": "16911216345287"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042814011971742120",
-    "outOrderNo": "753280375006040064"
-  }
-}
-
-- 代购改签，只有退票手续费
-{
-  "method": "issueOrder",
-  "sign": "59697697663BE881F85D8935FD2D9E71",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.0",
-    "payCount": "0.0",
-    "totalPricediff": "13.5",
-    "diffrate": null,
-    "serviceCharge": "3.5",
-    "changePriceDiff": "-13.5",
-    "expirationTime": "2024-04-29 17:12:23",
-    "fromStationCode": "BJQ",
-    "toStationCode": "DMQ",
-    "departureTime": "2024-04-30 17:12",
-    "arrivalTime": "",
-    "trainNo": "K1312",
-    "ticketNo": "E8W6657888",
-    "orderAmount": "11",
-    "fromStation": "深圳东",
-    "toStation": "东莞东",
-    "issueTime": "2024-04-29 16:44:23",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16922803970501",
-        "passengerName": "木婉清一",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220126",
-        "price": "11",
-        "pTicketNo": "E8W66578882010001",
-        "pTicketNoOld": "E8W6657888101005C",
-        "seatClass": "1",
-        "seatNo": "01车厢,01号",
-        "serviceCharge": "0",
-        "oldPassengerId": "16922718403143"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042914585954489058",
-    "outOrderNo": "753633414510415872"
-  }
-}
-
-- 代购改签，只有改签手续费
-{
-  "method": "issueOrder",
-  "sign": "AE835E2B7D84E6D2A63ADC4AB24EC8C7",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "3",
-    "changeTicketCost": "0.5",
-    "changeTicketRate": "0.05",
-    "payCount": "62.5",
-    "totalPricediff": "0.0",
-    "diffrate": null,
-    "serviceCharge": "0.0",
-    "changePriceDiff": "51.0000",
-    "expirationTime": "2024-04-29 17:11:07",
-    "fromStationCode": "BJQ",
-    "toStationCode": "DMQ",
-    "departureTime": "2024-05-03 20:12",
-    "arrivalTime": "",
-    "trainNo": "Z186",
-    "ticketNo": "E5W6657321",
-    "orderAmount": "62",
-    "fromStation": "深圳东",
-    "toStation": "东莞东",
-    "issueTime": "2024-04-29 16:43:07",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16922848826309",
-        "passengerName": "木婉清二",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "44182119980122010X",
-        "price": "62",
-        "pTicketNo": "E5W66573212010012",
-        "pTicketNoOld": "E5W66573211010004",
-        "seatClass": "3",
-        "seatNo": "01车厢,01中铺",
-        "serviceCharge": "0",
-        "oldPassengerId": "16922732629703"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042915005068906955",
-    "outOrderNo": "753634884592996352"
-  }
-}
-
-- 代购改签，有改签费跟退票费 220014997
-{
-  "method": "issueOrder",
-  "sign": "8F12DCDF04B988959F3F821A776CB8C2",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "21.5",
-    "changeTicketRate": "0.4",
-    "payCount": "8.0",
-    "totalPricediff": "0.0",
-    "diffrate": null,
-    "serviceCharge": "3.5",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-30 10:35:18",
-    "fromStationCode": "RTQ",
-    "toStationCode": "SZQ",
-    "departureTime": "2024-05-05 17:19",
-    "arrivalTime": "",
-    "trainNo": "K485",
-    "ticketNo": "E1W3699630",
-    "orderAmount": "53.5",
-    "fromStation": "东莞",
-    "toStation": "深圳",
-    "issueTime": "2024-04-30 10:07:18",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16923883866693",
-        "passengerName": "木青云十",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220273",
-        "price": "53.5",
-        "pTicketNo": "E1W36996302010013",
-        "pTicketNoOld": "E1W36996301010011",
-        "seatClass": "4",
-        "seatNo": "01车厢,01上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": "16923848393287"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024042917260759291337",
-    "outOrderNo": "753668800464949248"
-  }
-}
-
-- 代购改签，有改签费跟退票费 220015013
-{
-  "method": "issueOrder",
-  "sign": "B9F9766FD025512616AE2A542042A31F",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "2.5",
-    "changeTicketRate": "0.05",
-    "payCount": "2.5",
-    "totalPricediff": "0.0",
-    "diffrate": null,
-    "serviceCharge": "1.0",
-    "changePriceDiff": "0.0",
-    "expirationTime": "2024-04-30 16:04:53",
-    "fromStationCode": "RTQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-05-08 11:18",
-    "arrivalTime": "",
-    "trainNo": "K1655",
-    "ticketNo": "EEW0112034",
-    "orderAmount": "53.5",
-    "fromStation": "东莞",
-    "toStation": "深圳东",
-    "issueTime": "2024-04-30 15:36:53",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "16933387400261",
-        "passengerName": "木婉清八",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220249",
-        "price": "53.5",
-        "pTicketNo": "EEW01120342010013",
-        "pTicketNoOld": "EEW01120341050111",
-        "seatClass": "4",
-        "seatNo": "1车厢,1上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": "16933318075079"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024043013590948117661",
-    "outOrderNo": "753980212169019392"
-  }
-}
-
-{
-  "method": "issueOrder",
-  "sign": "F06B93A5C32198A4F4A1AA2E0EF22A8E",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "0.0",
-    "changeTicketRate": "0.0",
-    "payCount": "0.0",
-    "totalPricediff": "4.0",
-    "diffrate": null,
-    "serviceCharge": "2.0",
-    "changePriceDiff": "-4.0",
-    "expirationTime": "2024-05-07 19:32:40",
-    "fromStationCode": "DMQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-05-16 04:40",
-    "arrivalTime": "",
-    "trainNo": "K1019",
-    "ticketNo": "EAW2000200",
-    "orderAmount": "48.5",
-    "fromStation": "东莞东",
-    "toStation": "深圳东",
-    "issueTime": "2024-05-07 19:04:40",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "17000417388869",
-        "passengerName": "木婉清六",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220206",
-        "price": "48.5",
-        "pTicketNo": "EAW20002002100023",
-        "pTicketNoOld": "EAW20002001020021",
-        "seatClass": "3",
-        "seatNo": "10车厢,02上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": "16998040198343"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024050610263106964545",
-    "outOrderNo": "756176646767251456"
-  }
-}
-- 出票回调
-{
-  "msgCode": "100",
-  "isChangedOrder": "0",
-  "changedType": "0",
-  "changeTicketCost": null,
-  "changeTicketRate": null,
-  "payCount": null,
-  "diffrate": null,
-  "serviceCharge": "0",
-  "changePriceDiff": "0",
-  "expirationTime": "2024-05-09 12:07:47",
-  "fromStationCode": "IOQ",
-  "toStationCode": "RTQ",
-  "departureTime": "2024-05-18 18:44:00",
-  "arrivalTime": "",
-  "trainNo": "G6562",
-  "ticketNo": "EGW4910100",
-  "orderAmount": "58",
-  "fromStation": "深圳北",
-  "toStation": "东莞",
-  "issueTime": "2024-05-09 11:39:47",
-  "mailCharge": "0",
-  "msgDetail": "",
-  "remark": null,
-  "ticketGate": "",
-  "passengers": [
-    {
-      "passengerId": "17031762872647",
-      "passengerName": "木青云十",
-      "passengerType": 1,
-      "cardType": "1",
-      "cardNo": "441821199801220273",
-      "price": "58",
-      "seatClass": "O",
-      "seatNo": "5车厢,2D号",
-      "serviceCharge": "0",
-      "oldPassengerId": null,
-      "pticketNo": null,
-      "pticketNoOld": null
-    }
+    "routeClass": "GO",
+    "seatType": "hardSeat",
+    "fromStationName": "平凉",
+    "fromTime": "13:09",
+    "runTimeSpan": "15",
+    "toStationName": "平凉南",
+    "toTime": "13:24",
+    "price": 4,
+    "seatName": "硬座",
+    "seats": 99,
+    "queryId": "e31b246f-6af0-44f5-bb70-14abb07413fb",
+    "productType": "ByAdmin",
+    "isManual": false,
+    "trainDate": "2024-06-23"
+  },
+  "chooseSeats": [
+    
   ],
-  "msgInfo": "占座成功",
-  "orderNo": "HC2024050911372946266236",
-  "outOrderNo": "757203779899756544",
-  "changeOrder": false
-}
-- 改签回调
-{
-  "msgCode": "100",
-  "isChangedOrder": "1",
-  "changedType": "2",
-  "changeTicketCost": "0.0",
-  "changeTicketRate": "0.0",
-  "payCount": "0.0",
-  "diffrate": null,
-  "serviceCharge": "0.0",
-  "changePriceDiff": "-4.5",
-  "expirationTime": "2024-05-09 12:23:10",
-  "fromStationCode": "BJQ",
-  "toStationCode": "RTQ",
-  "departureTime": "2024-05-15 20:58",
-  "arrivalTime": "",
-  "trainNo": "Z586",
-  "ticketNo": "EGW4910100",
-  "orderAmount": "53.5",
-  "fromStation": "深圳东",
-  "toStation": "东莞",
-  "issueTime": "2024-05-09 11:55:10",
-  "mailCharge": "0",
-  "msgDetail": "",
-  "remark": null,
-  "ticketGate": "",
-  "passengers": [
-    {
-      "passengerId": "17031800650181",
-      "passengerName": "木青云十",
-      "passengerType": 1,
-      "cardType": "1",
-      "cardNo": "441821199801220273",
-      "price": "53.5",
-      "seatClass": "4",
-      "seatNo": "01车厢,01上铺",
-      "serviceCharge": "0",
-      "oldPassengerId": "17031762872647",
-      "pticketNo": null,
-      "pticketNoOld": null
-    }
-  ],
-  "msgInfo": "改签出票成功",
-  "orderNo": "HC2024050911372946266236",
-  "outOrderNo": "757205017617895424",
-  "changeOrder": true
-}
-
-
-{
-  "method": "issueOrder",
-  "sign": "D9CB20D64282224829EE2DDCEE1F75AF",
-  "param": {
-    "msgCode": "100",
-    "isChangedOrder": "1",
-    "changedType": "2",
-    "changeTicketCost": "7.5",
-    "changeTicketRate": "0.15",
-    "payCount": "3.5",
-    "totalPricediff": "4.0",
-    "diffrate": null,
-    "serviceCharge": "2.0",
-    "changePriceDiff": "-4.0",
-    "expirationTime": "2024-06-11 19:01:00",
-    "fromStationCode": "DMQ",
-    "toStationCode": "BJQ",
-    "departureTime": "2024-06-18 04:40",
-    "arrivalTime": "",
-    "trainNo": "K1019",
-    "ticketNo": "EDW5040000",
-    "orderAmount": "48.5",
-    "fromStation": "东莞东",
-    "toStation": "深圳东",
-    "issueTime": "2024-06-11 18:33:00",
-    "mailCharge": "0",
-    "msgDetail": "",
-    "remark": null,
-    "ticketGate": "",
-    "passengers": [
-      {
-        "passengerId": "556793280081989",
-        "passengerName": "木青云十",
-        "passengerType": "1",
-        "cardType": "1",
-        "cardNo": "441821199801220273",
-        "price": "48.5",
-        "pTicketNo": "EDW50400002010013",
-        "pTicketNoOld": "EDW50400001010011",
-        "seatClass": "3",
-        "seatNo": "01车厢,01上铺",
-        "serviceCharge": "0",
-        "oldPassengerId": "556774922866759"
-      }
-    ],
-    "msgInfo": "改签出票成功",
-    "orderNo": "HC2024061117025967393382",
-    "outOrderNo": "769263293012512768"
-  }
+  "customizeData": "",
+  "placeBySelf": false,
+  "turnToManualBooking": false,
+  "loginUsername": null
 }
