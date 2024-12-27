@@ -1,0 +1,40 @@
+[
+    {
+        "platformCode": "MAIYA",
+        "sign": "8b111f8a942515a9f27ad35dbda5fd5c",
+        "registerInfo": {
+            "companyCode": "MAIYA001",
+            "companyName": "深圳市麦芽智励（深圳总部）",
+            "companyAddress": "深圳市南山区科苑北103路科技园",
+            "bizTypes": [],
+            "contactInfo": {
+                "name": "深圳麦芽",
+                "mobile": "11132296409",
+                "email": "zhuxiujun@tehang.com"
+            },
+            "invoiceInfo": {
+                "invoiceTitle": "深圳市麦芽智励（深圳总部）",
+                "taxNo": "9234TYC7482290123"
+            }
+        }
+    },
+    {
+        "platformCode": "MAIYA",
+        "sign": "8b111f8a942515a9f27ad35dbda5fd5c",
+        "registerInfo": {
+            "companyCode": "MAIYA002",
+            "companyName": "深圳市麦芽智励（广州总部）",
+            "companyAddress": "广州市白云区钟落潭979路",
+            "bizTypes": ["Flight"],
+            "contactInfo": {
+                "name": "广州麦芽",
+                "mobile": "11132296409",
+                "email": "zhuxiujun@tehang.com"
+            },
+            "invoiceInfo": {
+                "invoiceTitle": "深圳市麦芽智励（广州总部）",
+                "taxNo": "9234TYC7482290154"
+            }
+        }
+    }
+]
