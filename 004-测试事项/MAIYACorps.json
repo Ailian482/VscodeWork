@@ -25,7 +25,7 @@
             "companyCode": "MAIYA002",
             "companyName": "深圳市麦芽智励（广州总部）",
             "companyAddress": "广州市白云区钟落潭979路",
-            "bizTypes": ["Flight"],
+            "bizTypes": [],
             "contactInfo": {
                 "name": "广州麦芽",
                 "mobile": "11132296409",
@@ -33,7 +33,7 @@
             },
             "invoiceInfo": {
                 "invoiceTitle": "深圳市麦芽智励（广州总部）",
-                "taxNo": "9234TYC7482290154"
+                "taxNo": "9234TYC7482290123"
             }
         }
     }
