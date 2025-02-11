@@ -1,35 +1,35 @@
 {
     "corpCode":"{{integrationCorpCode}}",
     "sign":"{{integrationCorpSign}}",
-    "platformCode": "MAIYA",
+    "platformCode": "{{integrationPlatformCode}}",
     "cityLevels": [
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5132",
             "cityName": "阿坝藏族羌族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6529",
             "cityName": "阿克苏地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1529",
             "cityName": "阿拉善盟"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6543",
             "cityName": "阿勒泰地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5425",
             "cityName": "阿里地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6109",
             "cityName": "安康"
         },
@@ -39,52 +39,52 @@
             "cityName": "安庆"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2103",
             "cityName": "鞍山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5204",
             "cityName": "安顺"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4105",
             "cityName": "安阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2208",
             "cityName": "白城"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4510",
             "cityName": "百色"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2206",
             "cityName": "白山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6204",
             "cityName": "白银"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1306",
             "cityName": "保定"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6103",
             "cityName": "宝鸡"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5305",
             "cityName": "保山"
         },
@@ -94,22 +94,22 @@
             "cityName": "包头"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1508",
             "cityName": "巴彦淖尔"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6528",
             "cityName": "巴音郭楞蒙古自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5119",
             "cityName": "巴中"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4505",
             "cityName": "北海"
         },
@@ -124,12 +124,12 @@
             "cityName": "蚌埠"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2105",
             "cityName": "本溪"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5205",
             "cityName": "毕节"
         },
@@ -139,12 +139,12 @@
             "cityName": "滨州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6527",
             "cityName": "博尔塔拉蒙古自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3416",
             "cityName": "亳州"
         },
@@ -164,12 +164,12 @@
             "cityName": "常德"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5403",
             "cityName": "昌都"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6523",
             "cityName": "昌吉回族自治州"
         },
@@ -179,22 +179,22 @@
             "cityName": "长沙"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1404",
             "cityName": "长治"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3204",
             "cityName": "常州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4451",
             "cityName": "潮州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1308",
             "cityName": "承德"
         },
@@ -204,17 +204,17 @@
             "cityName": "成都"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4310",
             "cityName": "郴州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1504",
             "cityName": "赤峰"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3417",
             "cityName": "池州"
         },
@@ -224,12 +224,12 @@
             "cityName": "重庆"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4514",
             "cityName": "崇左"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5323",
             "cityName": "楚雄彝族自治州"
         },
@@ -244,42 +244,42 @@
             "cityName": "大连"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5329",
             "cityName": "大理白族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2106",
             "cityName": "丹东"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4604",
             "cityName": "儋州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2306",
             "cityName": "大庆"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1402",
             "cityName": "大同"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2327",
             "cityName": "大兴安岭地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5117",
             "cityName": "达州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5331",
             "cityName": "德宏傣族景颇族自治州"
         },
@@ -294,12 +294,12 @@
             "cityName": "德州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6211",
             "cityName": "定西"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5334",
             "cityName": "迪庆藏族自治州"
         },
@@ -314,22 +314,22 @@
             "cityName": "东营"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1506",
             "cityName": "鄂尔多斯"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4228",
             "cityName": "恩施土家族苗族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4207",
             "cityName": "鄂州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4506",
             "cityName": "防城港"
         },
@@ -339,12 +339,12 @@
             "cityName": "佛山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2104",
             "cityName": "抚顺"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2109",
             "cityName": "阜新"
         },
@@ -354,7 +354,7 @@
             "cityName": "阜阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3610",
             "cityName": "抚州"
         },
@@ -364,7 +364,7 @@
             "cityName": "福州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6230",
             "cityName": "甘南藏族自治州"
         },
@@ -374,17 +374,17 @@
             "cityName": "赣州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5133",
             "cityName": "甘孜藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5116",
             "cityName": "广安"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5108",
             "cityName": "广元"
         },
@@ -394,7 +394,7 @@
             "cityName": "广州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4508",
             "cityName": "贵港"
         },
@@ -404,17 +404,17 @@
             "cityName": "桂林"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5201",
             "cityName": "贵阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6326",
             "cityName": "果洛藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6404",
             "cityName": "固原"
         },
@@ -429,7 +429,7 @@
             "cityName": "海北藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6302",
             "cityName": "海东"
         },
@@ -439,22 +439,22 @@
             "cityName": "海口"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6325",
             "cityName": "海南藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6328",
             "cityName": "海西蒙古族藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY632800",
             "cityName": "海西州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6505",
             "cityName": "哈密"
         },
@@ -469,12 +469,12 @@
             "cityName": "杭州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6107",
             "cityName": "汉中"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4106",
             "cityName": "鹤壁"
         },
@@ -489,17 +489,17 @@
             "cityName": "合肥"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2304",
             "cityName": "鹤岗"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2311",
             "cityName": "黑河"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1311",
             "cityName": "衡水"
         },
@@ -509,12 +509,12 @@
             "cityName": "衡阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6532",
             "cityName": "和田地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4416",
             "cityName": "河源"
         },
@@ -524,12 +524,12 @@
             "cityName": "菏泽"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4511",
             "cityName": "贺州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5325",
             "cityName": "红河哈尼族彝族自治州"
         },
@@ -539,32 +539,32 @@
             "cityName": "淮安"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3406",
             "cityName": "淮北"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4312",
             "cityName": "怀化"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3404",
             "cityName": "淮南"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4211",
             "cityName": "黄冈"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6323",
             "cityName": "黄南藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3410",
             "cityName": "黄山"
         },
@@ -579,17 +579,17 @@
             "cityName": "呼和浩特"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4413",
             "cityName": "惠州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2114",
             "cityName": "葫芦岛"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1507",
             "cityName": "呼伦贝尔"
         },
@@ -599,7 +599,7 @@
             "cityName": "湖州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2308",
             "cityName": "佳木斯"
         },
@@ -609,12 +609,12 @@
             "cityName": "江门"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3608",
             "cityName": "吉安"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4108",
             "cityName": "焦作"
         },
@@ -624,7 +624,7 @@
             "cityName": "嘉兴"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6202",
             "cityName": "嘉峪关"
         },
@@ -634,7 +634,7 @@
             "cityName": "揭阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2202",
             "cityName": "吉林"
         },
@@ -644,22 +644,22 @@
             "cityName": "济南"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6203",
             "cityName": "金昌"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1405",
             "cityName": "晋城"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3602",
             "cityName": "景德镇"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4208",
             "cityName": "荆门"
         },
@@ -669,7 +669,7 @@
             "cityName": "荆州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3307",
             "cityName": "金华"
         },
@@ -679,12 +679,12 @@
             "cityName": "济宁"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1407",
             "cityName": "晋中"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2107",
             "cityName": "锦州"
         },
@@ -694,47 +694,47 @@
             "cityName": "九江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6209",
             "cityName": "酒泉"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2303",
             "cityName": "鸡西"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4102",
             "cityName": "开封"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6531",
             "cityName": "喀什地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6502",
             "cityName": "克拉玛依"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6530",
             "cityName": "克孜勒苏柯尔克孜自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5301",
             "cityName": "昆明"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4513",
             "cityName": "来宾"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3712",
             "cityName": "莱芜"
         },
@@ -749,17 +749,17 @@
             "cityName": "兰州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5401",
             "cityName": "拉萨"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5111",
             "cityName": "乐山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5134",
             "cityName": "凉山彝族自治州"
         },
@@ -779,27 +779,27 @@
             "cityName": "辽阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2204",
             "cityName": "辽源"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5307",
             "cityName": "丽江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5309",
             "cityName": "临沧"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1410",
             "cityName": "临汾"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6229",
             "cityName": "临夏回族自治州"
         },
@@ -809,17 +809,17 @@
             "cityName": "临沂"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5404",
             "cityName": "林芝"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3311",
             "cityName": "丽水"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5202",
             "cityName": "六盘水"
         },
@@ -829,7 +829,7 @@
             "cityName": "柳州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6212",
             "cityName": "陇南"
         },
@@ -839,12 +839,12 @@
             "cityName": "龙岩"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4313",
             "cityName": "娄底"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1411",
             "cityName": "吕梁"
         },
@@ -859,7 +859,7 @@
             "cityName": "洛阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5105",
             "cityName": "泸州"
         },
@@ -874,17 +874,17 @@
             "cityName": "茂名"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MYafe632bd-abbe-4f9e-a086-4ad555e28fa7",
             "cityName": "马祖列岛"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5114",
             "cityName": "眉山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4414",
             "cityName": "梅州"
         },
@@ -894,17 +894,17 @@
             "cityName": "绵阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2310",
             "cityName": "牡丹江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3601",
             "cityName": "南昌"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5113",
             "cityName": "南充"
         },
@@ -914,12 +914,12 @@
             "cityName": "南京"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4501",
             "cityName": "南宁"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3507",
             "cityName": "南平"
         },
@@ -934,12 +934,12 @@
             "cityName": "南阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5110",
             "cityName": "内江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5424",
             "cityName": "那曲地区"
         },
@@ -954,47 +954,47 @@
             "cityName": "宁德"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5333",
             "cityName": "怒江傈僳族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2111",
             "cityName": "盘锦"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5104",
             "cityName": "攀枝花"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY41c18c4d-72ed-47e2-bdfa-a91f407a0743",
             "cityName": "澎湖列岛"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4104",
             "cityName": "平顶山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MYb382f1f1-3ad2-4546-a07a-e07f626f2eda",
             "cityName": "屏东"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6208",
             "cityName": "平凉"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3603",
             "cityName": "萍乡"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5308",
             "cityName": "普洱"
         },
@@ -1004,22 +1004,22 @@
             "cityName": "莆田"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4109",
             "cityName": "濮阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5226",
             "cityName": "黔东南苗族侗族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5227",
             "cityName": "黔南布依族苗族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5223",
             "cityName": "黔西南布依族苗族自治州"
         },
@@ -1029,7 +1029,7 @@
             "cityName": "青岛"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6210",
             "cityName": "庆阳"
         },
@@ -1039,22 +1039,22 @@
             "cityName": "清远"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1303",
             "cityName": "秦皇岛"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4507",
             "cityName": "钦州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2302",
             "cityName": "齐齐哈尔"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2309",
             "cityName": "七台河"
         },
@@ -1064,7 +1064,7 @@
             "cityName": "泉州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5303",
             "cityName": "曲靖"
         },
@@ -1074,7 +1074,7 @@
             "cityName": "衢州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5402",
             "cityName": "日喀则"
         },
@@ -1084,17 +1084,17 @@
             "cityName": "日照"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4112",
             "cityName": "三门峡"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3504",
             "cityName": "三明"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4603",
             "cityName": "三沙"
         },
@@ -1109,7 +1109,7 @@
             "cityName": "上海"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6110",
             "cityName": "商洛"
         },
@@ -1124,7 +1124,7 @@
             "cityName": "上饶"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5405",
             "cityName": "山南"
         },
@@ -1134,12 +1134,12 @@
             "cityName": "汕头"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4415",
             "cityName": "汕尾"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4402",
             "cityName": "韶关"
         },
@@ -1149,22 +1149,22 @@
             "cityName": "绍兴"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4305",
             "cityName": "邵阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4290",
             "cityName": "省直辖县级行政区划"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4690",
             "cityName": "省直辖县级行政区划"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4190",
             "cityName": "省直辖县级行政区划"
         },
@@ -1184,47 +1184,47 @@
             "cityName": "石家庄"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4203",
             "cityName": "十堰"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6402",
             "cityName": "石嘴山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2305",
             "cityName": "双鸭山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1406",
             "cityName": "朔州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2203",
             "cityName": "四平"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2207",
             "cityName": "松原"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2312",
             "cityName": "绥化"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5109",
             "cityName": "遂宁"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4213",
             "cityName": "随州"
         },
@@ -1239,17 +1239,17 @@
             "cityName": "苏州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3413",
             "cityName": "宿州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6542",
             "cityName": "塔城地区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4111",
             "cityName": "漯河"
         },
@@ -1259,7 +1259,7 @@
             "cityName": "泰安"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1401",
             "cityName": "太原"
         },
@@ -1289,42 +1289,42 @@
             "cityName": "天水"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2112",
             "cityName": "铁岭"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6102",
             "cityName": "铜川"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2205",
             "cityName": "通化"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1505",
             "cityName": "通辽"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3407",
             "cityName": "铜陵"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5206",
             "cityName": "铜仁"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6504",
             "cityName": "吐鲁番"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3707",
             "cityName": "潍坊"
         },
@@ -1334,22 +1334,22 @@
             "cityName": "威海"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6105",
             "cityName": "渭南"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5326",
             "cityName": "文山壮族苗族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3303",
             "cityName": "温州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1503",
             "cityName": "乌海"
         },
@@ -1364,7 +1364,7 @@
             "cityName": "芜湖"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1509",
             "cityName": "乌兰察布"
         },
@@ -1374,7 +1374,7 @@
             "cityName": "乌鲁木齐"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6206",
             "cityName": "武威"
         },
@@ -1384,12 +1384,12 @@
             "cityName": "无锡"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6403",
             "cityName": "吴忠"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4504",
             "cityName": "梧州"
         },
@@ -1399,17 +1399,17 @@
             "cityName": "厦门"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY7000",
             "cityName": "香港特别行政区"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4303",
             "cityName": "湘潭"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4331",
             "cityName": "湘西土家族苗族自治州"
         },
@@ -1419,7 +1419,7 @@
             "cityName": "襄阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4212",
             "cityName": "咸宁"
         },
@@ -1434,17 +1434,17 @@
             "cityName": "咸阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4209",
             "cityName": "孝感"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1525",
             "cityName": "锡林郭勒盟"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1522",
             "cityName": "兴安盟"
         },
@@ -1454,7 +1454,7 @@
             "cityName": "邢台"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6301",
             "cityName": "西宁"
         },
@@ -1469,27 +1469,27 @@
             "cityName": "信阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3605",
             "cityName": "新余"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1409",
             "cityName": "忻州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5328",
             "cityName": "西双版纳傣族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3418",
             "cityName": "宣城"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4110",
             "cityName": "许昌"
         },
@@ -1499,7 +1499,7 @@
             "cityName": "徐州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5118",
             "cityName": "雅安"
         },
@@ -1509,7 +1509,7 @@
             "cityName": "延安"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2224",
             "cityName": "延边"
         },
@@ -1519,12 +1519,12 @@
             "cityName": "盐城"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4417",
             "cityName": "阳江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1403",
             "cityName": "阳泉"
         },
@@ -1534,7 +1534,7 @@
             "cityName": "扬州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3706",
             "cityName": "烟台"
         },
@@ -1554,12 +1554,12 @@
             "cityName": "宜春"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2307",
             "cityName": "伊春"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6540",
             "cityName": "伊犁哈萨克自治州"
         },
@@ -1569,22 +1569,22 @@
             "cityName": "银川"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2108",
             "cityName": "营口"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY3606",
             "cityName": "鹰潭"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4309",
             "cityName": "益阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4311",
             "cityName": "永州"
         },
@@ -1599,27 +1599,27 @@
             "cityName": "榆林"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4509",
             "cityName": "玉林"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1408",
             "cityName": "运城"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4453",
             "cityName": "云浮"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6327",
             "cityName": "玉树藏族自治州"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5304",
             "cityName": "玉溪"
         },
@@ -1629,17 +1629,17 @@
             "cityName": "枣庄"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4308",
             "cityName": "张家界"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY1307",
             "cityName": "张家口"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6207",
             "cityName": "张掖"
         },
@@ -1659,12 +1659,12 @@
             "cityName": "肇庆"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5306",
             "cityName": "昭通"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY2113",
             "cityName": "朝阳"
         },
@@ -1679,12 +1679,12 @@
             "cityName": "镇江"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4420",
             "cityName": "中山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6405",
             "cityName": "中卫"
         },
@@ -1699,7 +1699,7 @@
             "cityName": "舟山"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY4404",
             "cityName": "珠海"
         },
@@ -1719,17 +1719,17 @@
             "cityName": "淄博"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5103",
             "cityName": "自贡"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY5120",
             "cityName": "资阳"
         },
         {
-            "level": 6,
+            "level": "-1",
             "cityCode": "MY6590",
             "cityName": "自治区直辖县级行政区划"
         },
