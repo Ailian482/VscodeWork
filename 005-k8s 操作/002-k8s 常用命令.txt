@@ -81,9 +81,11 @@ kube-port-forward() {
   kubectl port-forward services/tmc-services 10031:10031
 
 - 进去pod里面的命令
-  kubectl exec -it 服务名 -n 环境 /bin/bash
+  old: kubectl exec -it 服务名 -n 环境 /bin/bash
+  new: kubectl exec -it 服务名 -n 环境 --  /bin/bash
 - 例如：
-  kubectl exec -it tmc-services-58b46f86c5-8qmkd -n test-tyx-env-3 /bin/bash
+  old: kubectl exec -it tmc-services-58b46f86c5-8qmkd -n test-tyx-env-3 /bin/bash
+  new: kubectl exec -it domestic-hotel-resource-7cc8cbf9cd-96t5w -n dev-tyx-env-6 --  /bin/bash
 - 其中 test-tyx-env-3 是环境名
   tmc-services-58b46f86c5-8qmkd 是 kubectl get pods -n 环境名查找出来的 podname
   
